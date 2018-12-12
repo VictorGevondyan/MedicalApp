@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/opti_scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:focusable="false"
+    android:fillViewport="true"
+    android:overScrollMode="never">
+
+    <LinearLayout
+        android:id="@+id/voice_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/menu_padding"
+        android:paddingTop="@dimen/menu_padding"
+        android:focusable="false"
+        android:fillViewport="true"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/touch_below"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/touch_below"
+            android:focusable="false"
+            android:textSize="15sp"
+            android:textColor="@color/text_dark_grey" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="15dp"
+            android:paddingEnd="15dp">
+
+        <RelativeLayout
+            android:id="@+id/microphone_button"
+            android:layout_width="@dimen/microphone_layout_size"
+            android:layout_height="@dimen/microphone_layout_size"
+            android:layout_marginTop="@dimen/query_elements_margin_top"
+            android:clickable="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/circle_grey">
+
+            <View
+                android:id="@+id/voice_background"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:background="@drawable/circle_orange"/>
+
+            <com.implementhit.OptimizeHIT.views.VoiceSpinnerView
+                android:id="@+id/voice_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="invisible"/>
+
+            <TextView
+                android:id="@+id/microphone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="22dp"
+                android:paddingStart="22dp"
+                android:paddingRight="0dp"
+                android:paddingEnd="0dp"
+                android:text="@string/icon_mic"
+                android:textSize="@dimen/microphone_font_text_size"
+                android:focusable="false"
+                android:textColor="@color/text_white"
+                android:gravity="center" />
+
+        </RelativeLayout>
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="35dp"
+                android:src="@drawable/nuance"
+                android:layout_alignBottom="@id/microphone_button"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/or"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/query_elements_margin_top"
+            android:text="@string/or"
+            android:focusable="false"
+            android:textSize="15sp"
+            android:textColor="@color/text_dark_grey" />
+
+        <LinearLayout
+            android:id="@+id/text_field_and_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/query_elements_margin_top"
+            android:focusable="false"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/input_rounded_rect"
+                android:layout_marginLeft="@dimen/text_field_lateral_margin"
+                android:layout_marginRight="@dimen/text_field_lateral_margin" >
+
+                <TextView
+                    android:id="@+id/clear_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:text="@string/icon_cancel_circled_dark"
+                    android:textSize="15sp"
+                    android:textColor="@color/text_search"
+                    android:background="@android:color/transparent"
+                    android:visibility="invisible"
+                    android:clickable="true" />
+
+                <com.implementhit.OptimizeHIT.util.CustomEditText
+                    android:id="@+id/question"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_toLeftOf="@id/clear_icon"
+                    android:layout_toStartOf="@id/clear_icon"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/input_question"
+                    android:inputType="text"
+                    android:imeOptions="flagNoExtractUi"
+                    android:paddingLeft="5dp"
+                    android:paddingStart="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingEnd="5dp"
+                    android:textColor="@color/text_black"
+                    android:textColorHint="@color/text_search"
+                    android:textSize="12sp" />
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/button_query"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/query_button_margin_top"
+                android:layout_gravity="center_horizontal"
+                android:minHeight="0dp"
+                android:minWidth="0dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingRight="45dp"
+                android:paddingLeft="45dp"
+                android:paddingStart="45dp"
+                android:paddingEnd="45dp"
+                android:background="@drawable/rounded_rect_orange"
+                android:text="@string/query"
+                android:textColor="@color/text_white"
+                android:textSize="@dimen/query_button_text_size"
+                android:textAllCaps="false" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/popular_questions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/popular_questions_margin_top"
+            android:paddingStart="@dimen/menu_padding"
+            android:paddingEnd="@dimen/menu_padding"
+            android:paddingRight="@dimen/menu_padding"
+            android:paddingLeft="@dimen/menu_padding"
+            android:text="@string/popular_questions"
+            android:focusable="false"
+            android:textSize="15sp"
+            android:textColor="@color/text_black"
+            android:background="@color/background_white_grey"/>
+
+        <LinearLayout
+            android:id="@+id/questions_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/query_elements_margin_top"
+            android:layout_marginLeft="@dimen/menu_padding"
+            android:layout_marginRight="@dimen/menu_padding"
+            android:layout_marginStart="@dimen/menu_padding"
+            android:layout_marginEnd="@dimen/menu_padding"
+            android:paddingTop="5dp"
+            android:orientation="vertical"/>
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+
+jsquid:S1192"SDefine a constant instead of duplicating this literal "notificationDialog" 4 times.(¾Ú«
+gsquid:CommentedOutCodeLinel"<This block of commented-out lines of code should be removed.(³ãìæıÿÿÿÿ
+gsquid:CommentedOutCodeLineu"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+Nsquid:S1135k"2Complete the task associated to this TODO comment.(è÷ıÿÿÿÿ
+Qsquid:S1118":Add a private constructor to hide the implicit public one.(‘á¯€
+Asquid:S00108P")Either remove or fill this block of code.(”ı¾
+Bsquid:S00108›")Either remove or fill this block of code.(”ı¾
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ğÚôÔùÿÿÿÿ
+asquid:UselessImportCheck">Remove this unused import 'android.content.SharedPreferences'.(íÎÉr
+xsquid:UselessImportCheck"URemove this unused import 'com.implementhit.OptimizeHIT.fragments.OptiQueryFragment'.(ü–ĞV
+Vsquid:UselessImportCheck"-Remove this unused import 'android.util.Log'.(Ô¦Ø²øÿÿÿÿ
+?squid:S1148~"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ

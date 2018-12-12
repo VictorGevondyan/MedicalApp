@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/solution_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_white" >
+
+    <LinearLayout
+        android:id="@+id/action_tool_bars"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+		android:background="@color/orange">
+
+	    <RelativeLayout
+			android:layout_width="match_parent"
+		    android:layout_height="wrap_content" >
+
+			<include
+                android:id="@+id/action_bar"
+                layout="@layout/bar_action" />
+
+            <include
+                android:id="@+id/watson_action_bar_tabs"
+                layout="@layout/bar_action_tabs" />
+
+        </RelativeLayout>
+
+		<include
+			android:id="@+id/toolbar"
+			layout="@layout/bar_action_toolbar" />
+
+	</LinearLayout>
+
+    <TextView
+        android:id="@+id/no_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/action_tool_bars"
+        android:layout_marginTop="12dp"
+		android:layout_marginLeft="12dp"
+        android:text="@string/no_results_found"
+        android:textStyle="italic"
+        android:textColor="@color/text_grey"
+        android:textSize="15sp"
+        android:visibility="gone" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/solutions_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/action_tool_bars"
+        android:listSelector="#00000000"
+        android:divider="#00000000"
+        android:visibility="gone"
+        android:scrollbars="none"
+		android:overScrollMode="never" />
+
+   <RelativeLayout
+   		android:id="@+id/bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/play_button_radius"
+        android:layout_alignParentBottom="true"
+        android:background="@color/orange" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/play_button_radius"
+            android:weightSum="2"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/solution_back_button"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/play_button_radius"
+                android:layout_weight="1"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/solution_backward_icon"
+                    android:layout_width="20sp"
+                    android:layout_height="20sp"
+                    android:gravity="center"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_centerVertical="true"
+                    android:paddingStart="0dp"
+                    android:paddingLeft="0dp"
+                    android:paddingRight="2dp"
+                    android:paddingEnd="2dp"
+                    android:text="@string/icon_angle_left"
+                    android:textColor="@color/orange"
+                    android:textSize="12sp"
+                    android:background="@drawable/circle_white"/>
+
+                <TextView
+                    android:id="@+id/solution_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/play_button_radius"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toRightOf="@id/solution_backward_icon"
+                    android:layout_toEndOf="@id/solution_backward_icon"
+                    android:textColor="@color/text_white"
+                    android:gravity="center_vertical|start"
+                    android:lines="1"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:singleLine="true" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/solution_forward_button"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/play_button_radius"
+                android:layout_weight="1"
+                android:clickable="true" >
+
+                <TextView
+                    android:id="@+id/solution_forward_icon"
+                    android:layout_width="20sp"
+                    android:layout_height="20sp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:paddingStart="2dp"
+                    android:paddingLeft="2dp"
+                    android:paddingRight="0dp"
+                    android:paddingEnd="0dp"
+                    android:gravity="center"
+                    android:text="@string/icon_angle_right"
+                    android:textSize="12sp"
+                    android:textColor="@color/orange"
+                    android:background="@drawable/circle_white"/>
+
+                <TextView
+                    android:id="@+id/solution_forward"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/play_button_radius"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_toLeftOf="@id/solution_forward_icon"
+                    android:layout_toStartOf="@id/solution_forward_icon"
+                    android:textColor="@color/text_white"
+                    android:gravity="center_vertical|end"
+                    android:lines="1"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:singleLine="true" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/watson_loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/menu_padding"
+            android:text="@string/icon_spinner"
+            android:textColor="@color/text_white"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <WebView
+        android:id="@+id/solution"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/action_tool_bars"
+        android:layout_above="@id/bottom_bar"
+        android:scrollbars="none"
+        android:visibility="gone"
+        android:overScrollMode="never"/>
+
+    <WebView
+        android:id="@+id/watson"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/action_tool_bars"
+        android:layout_above="@id/bottom_bar"
+        android:visibility="gone" />
+
+	<FrameLayout
+        android:id="@+id/set_automatic"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:layout_above="@id/bottom_bar"
+        android:background="@color/background_semitransparent" >
+
+        <Button
+            android:id="@+id/close_set_automatic"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_gravity="top|right"
+            android:text="@string/x"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:textSize="15dp"
+            android:textColor="#FFFFFF"
+            android:background="@color/red"
+			android:textAllCaps="false" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:padding="10dp"
+            android:text="@string/set_automatic_speech"
+            android:textSize="12sp"
+            android:textColor="#FFFFFF"
+            android:gravity="center" />
+
+    </FrameLayout>
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

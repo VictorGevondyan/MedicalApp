@@ -1,0 +1,44 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/background_light_grey</item>
+        <item name="colorPrimaryDark">@color/orange</item>
+        <item name="colorControlActivated">@color/orange</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:textColor">@color/text_black</item>
+        <item name="android:textColorPrimary">@color/text_black</item>
+        <item name="android:windowBackground">@color/background_white</item>
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+    </style>
+
+    <style name="Dialog.ErrorAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:windowEnterAnimation">@anim/bounce</item>
+    </style>
+
+    <style name="Dialog.NotificationAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:windowEnterAnimation">@anim/alpha_in</item>
+    </style>
+
+    <style name="RatingBar.Small" parent="Widget.AppCompat.RatingBar.Small">
+        Widget.AppCompat.RatingBar.Small.
+    </style>
+
+    <style name="MySwitch" parent="Theme.AppCompat.Light">
+        <!-- active thumb & track color (30% transparency) -->
+        <item name="colorControlActivated">@color/orange</item>
+
+        <!-- inactive thumb color -->
+        <item name="colorSwitchThumbNormal">@color/background_item_grey</item>
+
+        <!-- inactive track color (30% transparency) -->
+        <item name="android:colorForeground">@color/red</item>
+    </style>
+
+</resources>

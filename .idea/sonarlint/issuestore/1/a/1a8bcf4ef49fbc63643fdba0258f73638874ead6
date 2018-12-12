@@ -1,0 +1,142 @@
+
+Lsquid:EmptyStatementUsageCheck¦	"Remove this empty statement.(Åñ­õşÿÿÿÿ
+vsquid:S1192æ"YUse already-defined constant 'CALL_TYPE_OPTIQUERY' instead of duplicating its value here.(‰œñàûÿÿÿÿ
+dsquid:S1192Ò"LUse already-defined constant 'DOMAIN' instead of duplicating its value here.(™ÅùÆ
+jsquid:S1192Æ"MUse already-defined constant 'MESSAGE' instead of duplicating its value here.(ˆÊ”¡üÿÿÿÿ
+^squid:S1192Ã"FDefine a constant instead of duplicating this literal "error" 3 times.(´à¶ç
+Gsquid:S1066“"/Merge this if statement with the enclosing one.(ïùÆ÷
+qsquid:S2293›"YReplace the type specification in this constructor call with the diamond operator ("<>").(ãĞ
+vsquid:S2293œ"YReplace the type specification in this constructor call with the diamond operator ("<>").(Óÿÿÿÿÿÿ
+qsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÿÛó‘
+vsquid:S2293Ò
+"YReplace the type specification in this constructor call with the diamond operator ("<>").(‰ÜÃ‚ùÿÿÿÿ
+qsquid:S2293³"YReplace the type specification in this constructor call with the diamond operator ("<>").(—ªòî
+3squid:S3626Û"Remove this redundant jump.(ûÁİ…
+asquid:CommentedOutCodeLineB"<This block of commented-out lines of code should be removed.(‘ÇÜx
+hsquid:CommentedOutCodeLine¾"<This block of commented-out lines of code should be removed.(¯¡‚‰şÿÿÿÿ
+hsquid:CommentedOutCodeLineÀ"<This block of commented-out lines of code should be removed.(Ù–ÈÀúÿÿÿÿ
+squid:S1319º"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(“½ Ûùÿÿÿÿ
+Osquid:S2589Ğ"7Remove this expression which always evaluates to "true"(ïùÆ÷
+Osquid:S1135²"2Complete the task associated to this TODO comment.(’ŞÍúÿÿÿÿÿ
+osquid:S3776º"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(ÕéÑ’şÿÿÿÿ
+jsquid:S3776â"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(’ –ê
+osquid:S3776ÿ"RRefactor this method to reduce its Cognitive Complexity from 30 to the 15 allowed.(‚­Õ¾ûÿÿÿÿ
+dsquid:CallToDeprecatedMethod¥"6Remove this use of "SchemeRegistry"; it is deprecated.(¦Ñ°ìüÿÿÿÿ
+dsquid:CallToDeprecatedMethod¥"6Remove this use of "SchemeRegistry"; it is deprecated.(¦Ñ°ìüÿÿÿÿ
+Vsquid:CallToDeprecatedMethod¦".Remove this use of "Scheme"; it is deprecated.(á“â%
+bsquid:CallToDeprecatedMethod¦":Remove this use of "PlainSocketFactory"; it is deprecated.(á“â%
+Wsquid:CallToDeprecatedMethodÁ".Remove this use of "Header"; it is deprecated.(‘ËÙï
+Wsquid:CallToDeprecatedMethodâ".Remove this use of "Header"; it is deprecated.(Ø®ö“
+Wsquid:CallToDeprecatedMethodé".Remove this use of "Header"; it is deprecated.(Ã´­ê
+Wsquid:CallToDeprecatedMethodş".Remove this use of "Header"; it is deprecated.(‘ËÙï
+Wsquid:CallToDeprecatedMethod¡".Remove this use of "Header"; it is deprecated.(Ø®ö“
+Wsquid:CallToDeprecatedMethod¨".Remove this use of "Header"; it is deprecated.(Ã´­ê
+`squid:CallToDeprecatedMethod¶"2Remove this use of "HttpParams"; it is deprecated.(‡†ßØşÿÿÿÿ
+esquid:CallToDeprecatedMethod¶"7Remove this use of "BasicHttpParams"; it is deprecated.(‡†ßØşÿÿÿÿ
+esquid:CallToDeprecatedMethod¼"<Remove this use of "HttpConnectionParams"; it is deprecated.(Êãü
+esquid:CallToDeprecatedMethod¾"<Remove this use of "HttpConnectionParams"; it is deprecated.(¾âÛ
+`squid:CallToDeprecatedMethod¿"2Remove this use of "HttpClient"; it is deprecated.(Üãò¾üÿÿÿÿ
+gsquid:CallToDeprecatedMethod¿"9Remove this use of "DefaultHttpClient"; it is deprecated.(Üãò¾üÿÿÿÿ
+Ysquid:CallToDeprecatedMethodÀ"0Remove this use of "HttpPost"; it is deprecated.(Şİ¾ğ
+Ysquid:CallToDeprecatedMethodÀ"0Remove this use of "HttpPost"; it is deprecated.(Şİ¾ğ
+msquid:CallToDeprecatedMethodÄ"?Remove this use of "ClientProtocolException"; it is deprecated.(‡¤“Óûÿÿÿÿ
+Wsquid:CallToDeprecatedMethodß".Remove this use of "Header"; it is deprecated.(‘ËÙï
+Wsquid:CallToDeprecatedMethodí".Remove this use of "Header"; it is deprecated.(Ø®ö“
+Wsquid:CallToDeprecatedMethod÷".Remove this use of "Header"; it is deprecated.(Ã´­ê
+Wsquid:CallToDeprecatedMethodŠ".Remove this use of "Header"; it is deprecated.(‘ËÙï
+Wsquid:CallToDeprecatedMethod™".Remove this use of "Header"; it is deprecated.(Ø®ö“
+Wsquid:CallToDeprecatedMethod ".Remove this use of "Header"; it is deprecated.(Ã´­ê
+Wsquid:CallToDeprecatedMethod¯".Remove this use of "Header"; it is deprecated.(‘ËÙï
+Wsquid:CallToDeprecatedMethod½".Remove this use of "Header"; it is deprecated.(Ø®ö“
+Wsquid:CallToDeprecatedMethodÄ".Remove this use of "Header"; it is deprecated.(Ã´­ê
+Wsquid:CallToDeprecatedMethodÜ".Remove this use of "Header"; it is deprecated.(‘ËÙï
+Wsquid:CallToDeprecatedMethod÷".Remove this use of "Header"; it is deprecated.(Ø®ö“
+Wsquid:CallToDeprecatedMethodş".Remove this use of "Header"; it is deprecated.(Ã´­ê
+\squid:CallToDeprecatedMethod’".Remove this use of "Header"; it is deprecated.(±”ºªùÿÿÿÿ
+Wsquid:CallToDeprecatedMethod¡".Remove this use of "Header"; it is deprecated.(Ø®ö“
+Wsquid:CallToDeprecatedMethod¦".Remove this use of "Header"; it is deprecated.(Ã´­ê
+\squid:CallToDeprecatedMethodº".Remove this use of "Header"; it is deprecated.(±”ºªùÿÿÿÿ
+Wsquid:CallToDeprecatedMethodÉ".Remove this use of "Header"; it is deprecated.(Ø®ö“
+Wsquid:CallToDeprecatedMethodÍ".Remove this use of "Header"; it is deprecated.(Ã´­ê
+\squid:CallToDeprecatedMethodÜ".Remove this use of "Header"; it is deprecated.(±”ºªùÿÿÿÿ
+Wsquid:CallToDeprecatedMethodì".Remove this use of "Header"; it is deprecated.(Ø®ö“
+Wsquid:CallToDeprecatedMethodó".Remove this use of "Header"; it is deprecated.(Ã´­ê
+Wsquid:CallToDeprecatedMethod‹".Remove this use of "Header"; it is deprecated.(‘ËÙï
+Wsquid:CallToDeprecatedMethod›".Remove this use of "Header"; it is deprecated.(Ø®ö“
+Wsquid:CallToDeprecatedMethod¢".Remove this use of "Header"; it is deprecated.(Ã´­ê
+Wsquid:CallToDeprecatedMethod¶".Remove this use of "Header"; it is deprecated.(‘ËÙï
+Wsquid:CallToDeprecatedMethodÏ".Remove this use of "Header"; it is deprecated.(Ø®ö“
+Wsquid:CallToDeprecatedMethodÖ".Remove this use of "Header"; it is deprecated.(Ã´­ê
+Wsquid:CallToDeprecatedMethodï".Remove this use of "Header"; it is deprecated.(‘ËÙï
+Wsquid:CallToDeprecatedMethod©".Remove this use of "Header"; it is deprecated.(Ø®ö“
+Wsquid:CallToDeprecatedMethod°".Remove this use of "Header"; it is deprecated.(Ã´­ê
+\squid:CallToDeprecatedMethodá".Remove this use of "Header"; it is deprecated.(±”ºªùÿÿÿÿ
+Wsquid:CallToDeprecatedMethodğ".Remove this use of "Header"; it is deprecated.(Ø®ö“
+Wsquid:CallToDeprecatedMethod÷".Remove this use of "Header"; it is deprecated.(Ã´­ê
+\squid:CallToDeprecatedMethod†".Remove this use of "Header"; it is deprecated.(ÄÙ€çüÿÿÿÿ
+Wsquid:CallToDeprecatedMethodÆ".Remove this use of "Header"; it is deprecated.(Ø®ö“
+Wsquid:CallToDeprecatedMethodÍ".Remove this use of "Header"; it is deprecated.(Ã´­ê
+Wsquid:CallToDeprecatedMethodß".Remove this use of "Header"; it is deprecated.(‘ËÙï
+Wsquid:CallToDeprecatedMethodí".Remove this use of "Header"; it is deprecated.(Ø®ö“
+Wsquid:CallToDeprecatedMethodô".Remove this use of "Header"; it is deprecated.(Ã´­ê
+\squid:CallToDeprecatedMethod†".Remove this use of "Header"; it is deprecated.(±”ºªùÿÿÿÿ
+Wsquid:CallToDeprecatedMethod•".Remove this use of "Header"; it is deprecated.(Ø®ö“
+Wsquid:CallToDeprecatedMethodœ".Remove this use of "Header"; it is deprecated.(Ã´­ê
+\squid:CallToDeprecatedMethod¯".Remove this use of "Header"; it is deprecated.(±”ºªùÿÿÿÿ
+Wsquid:CallToDeprecatedMethodÃ".Remove this use of "Header"; it is deprecated.(Ø®ö“
+Wsquid:CallToDeprecatedMethodÊ".Remove this use of "Header"; it is deprecated.(Ã´­ê
+\squid:CallToDeprecatedMethodà".Remove this use of "Header"; it is deprecated.(±”ºªùÿÿÿÿ
+Wsquid:CallToDeprecatedMethodú".Remove this use of "Header"; it is deprecated.(Ø®ö“
+Wsquid:CallToDeprecatedMethod	".Remove this use of "Header"; it is deprecated.(Ã´­ê
+\squid:CallToDeprecatedMethod	".Remove this use of "Header"; it is deprecated.(ÄÙ€çüÿÿÿÿ
+\squid:CallToDeprecatedMethod¶	".Remove this use of "Header"; it is deprecated.(±”ºªùÿÿÿÿ
+Wsquid:CallToDeprecatedMethodÚ	".Remove this use of "Header"; it is deprecated.(Ø®ö“
+Wsquid:CallToDeprecatedMethodá	".Remove this use of "Header"; it is deprecated.(Ã´­ê
+\squid:CallToDeprecatedMethod÷	".Remove this use of "Header"; it is deprecated.(±”ºªùÿÿÿÿ
+Wsquid:CallToDeprecatedMethod†
+".Remove this use of "Header"; it is deprecated.(Ø®ö“
+Wsquid:CallToDeprecatedMethod
+".Remove this use of "Header"; it is deprecated.(Ã´­ê
+\squid:CallToDeprecatedMethod§
+".Remove this use of "Header"; it is deprecated.(ºƒ‹Æûÿÿÿÿ
+\squid:CallToDeprecatedMethod°
+".Remove this use of "Header"; it is deprecated.(£Ôœ‚şÿÿÿÿ
+Wsquid:CallToDeprecatedMethodÃ
+".Remove this use of "Header"; it is deprecated.(‘ËÙï
+Wsquid:CallToDeprecatedMethodâ
+".Remove this use of "Header"; it is deprecated.(Ø®ö“
+Wsquid:CallToDeprecatedMethodë
+".Remove this use of "Header"; it is deprecated.(Ã´­ê
+Wsquid:CallToDeprecatedMethod€".Remove this use of "Header"; it is deprecated.(‘ËÙï
+\squid:CallToDeprecatedMethod".Remove this use of "Header"; it is deprecated.(ğĞ—öúÿÿÿÿ
+Wsquid:CallToDeprecatedMethod¦".Remove this use of "Header"; it is deprecated.(Ã´­ê
+Wsquid:CallToDeprecatedMethodØ".Remove this use of "Header"; it is deprecated.(‘ËÙï
+Wsquid:CallToDeprecatedMethodğ".Remove this use of "Header"; it is deprecated.(Ã´­ê
+\squid:CallToDeprecatedMethodù".Remove this use of "Header"; it is deprecated.(ğĞ—öúÿÿÿÿ
+\squid:CallToDeprecatedMethodŒ".Remove this use of "Header"; it is deprecated.(±”ºªùÿÿÿÿ
+Wsquid:CallToDeprecatedMethod¦".Remove this use of "Header"; it is deprecated.(Ø®ö“
+Wsquid:CallToDeprecatedMethod­".Remove this use of "Header"; it is deprecated.(Ã´­ê
+Qsquid:S1118_":Add a private constructor to hide the implicit public one.(²¿‘É
+Psquid:S1118n":Add a private constructor to hide the implicit public one.(øĞ²
+
+Vsquid:S1118u":Add a private constructor to hide the implicit public one.(íâ“¡ùÿÿÿÿ
+Wsquid:S1118Š":Add a private constructor to hide the implicit public one.(…Ã—şÿÿÿÿ
+esquid:S00101_"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(²¿‘É
+dsquid:S00101n"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(øĞ²
+
+jsquid:S00101u"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(íâ“¡ùÿÿÿÿ
+ksquid:S00101Š"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(…Ã—şÿÿÿÿ
+Esquid:S1172Ä".Remove this unused method parameter "context".(µ¿’7
+Ksquid:S1172ÿ".Remove this unused method parameter "context".(Óà×îüÿÿÿÿ
+asquid:S2259†"DA "NullPointerException" could be thrown; "watson" is nullable here.(òñòûÿÿÿÿ
+bsquid:S2259…"EA "NullPointerException" could be thrown; "library" is nullable here.(áäŠ„ûÿÿÿÿ
+™squid:S1186¡"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ø®ö“
+™squid:S1186¦"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ã´­ê
+™squid:S1186É"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ø®ö“
+™squid:S1186Í"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ã´­ê
+Esquid:S1185ù"(Remove this method to simply inherit it.(ğĞ—öúÿÿÿÿ
+]squid:S2147Æ"ECombine this catch with the one at line 324, which has the same body.(ï­£Ä
+osquid:S00117»"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬Ê½…şÿÿÿÿ
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ŒŠÕ—
+@squid:S1148Å"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+@squid:S1148Ç"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ

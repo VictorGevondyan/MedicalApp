@@ -1,0 +1,15 @@
+
+qsquid:S3008<"URename this field "IS_PLAYING" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒêİ³ÿÿÿÿÿ
+Nsquid:S2696ï"6Make the enclosing method "static" or remove this set.(¨Éôì
+@squid:S1148ê"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+Tsquid:S2589ı"7Remove this expression which always evaluates to "true"(Íãçùÿÿÿÿ
+nsquid:S3008="WRename this field "SPEECH_SPEED" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(åéØ†
+wsquid:S3008;"`Rename this field "IS_DEFAULT_MENU_SHOWN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŒÆ‘ì
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¬£ÆÂøÿÿÿÿ
+™squid:S1186Ë"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(š€§¿
+Tsquid:S2589Õ"7Remove this expression which always evaluates to "true"(Íãçùÿÿÿÿ
+Nsquid:S2696Æ"6Make the enclosing method "static" or remove this set.(ß’…°
+Nsquid:S2696‡"6Make the enclosing method "static" or remove this set.(¨Éôì
+Nsquid:S2696ë"6Make the enclosing method "static" or remove this set.(¨Éôì
+™squid:S1186±"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(±–Š
+qsquid:MaximumInheritanceDepth3"<This class has 9 parents which is greater than 5 authorized.(ªàı¤şÿÿÿÿ8ÎÉŒçÖ,

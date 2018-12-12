@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<include layout="@layout/bar_action" />
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:fillViewport="true"
+		android:scrollbars="none"
+		android:overScrollMode="never">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:padding="@dimen/menu_padding"
+			android:orientation="vertical">
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="@string/diagnostics"
+				android:textSize="20sp" />
+
+			<com.implementhit.OptimizeHIT.views.ExpendedGridView
+				android:id="@+id/diagnostics_grid"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="@dimen/menu_padding"
+				android:stretchMode="columnWidth"
+				android:columnWidth="100dp"
+				android:numColumns="auto_fit"
+				android:horizontalSpacing="10dp"
+				android:verticalSpacing="10dp"
+				android:listSelector="@android:color/transparent"
+				android:scrollbars="none"
+				android:overScrollMode="never"
+				android:isScrollContainer="false"
+				android:gravity="center">
+			</com.implementhit.OptimizeHIT.views.ExpendedGridView>
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:paddingTop="@dimen/menu_padding"
+				android:paddingBottom="@dimen/menu_padding"
+				android:text="@string/above_info_automatically_added"
+				android:textSize="15sp"/>
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:paddingTop="@dimen/menu_padding"
+				android:text="@string/subject"
+				android:textSize="20sp"/>
+
+			<com.implementhit.OptimizeHIT.util.CustomEditText
+				android:id="@+id/subject"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="@dimen/menu_padding"
+				android:layout_marginBottom="@dimen/menu_padding"
+				android:padding="5dp"
+				android:singleLine="true"
+				android:lines="1"
+				android:background="@drawable/input_rounded_rect"
+				android:imeOptions="flagNoExtractUi"/>
+
+			<TextView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:text="@string/describe_issue"
+				android:paddingTop="@dimen/menu_padding"
+				android:textSize="20sp"/>
+
+			<com.implementhit.OptimizeHIT.util.CustomEditText
+				android:id="@+id/description"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="@dimen/menu_padding"
+				android:layout_marginBottom="@dimen/menu_padding"
+				android:padding="5dp"
+				android:gravity="top|left"
+				android:lines="5"
+				android:background="@drawable/input_rounded_rect"
+				android:imeOptions="flagNoExtractUi"/>
+
+			<Button
+				android:id="@+id/submit_button"
+				android:layout_width="200dp"
+				android:layout_height="wrap_content"
+				android:background="@drawable/rounded_rect_orange"
+				android:text="@string/submit_ticket"
+				android:textColor="@color/text_white"
+				android:textAllCaps="false" />
+
+		</LinearLayout>
+
+	</ScrollView>
+
+</LinearLayout>

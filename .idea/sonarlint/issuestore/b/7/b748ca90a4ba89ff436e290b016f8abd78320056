@@ -1,0 +1,9 @@
+
+bsquid:CallToDeprecatedMethod"0Remove this use of "register"; it is deprecated.(Üù¼şÿÿÿÿ8ì“û–Š,
+lsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(˜ğÙ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+dsquid:CallToDeprecatedMethod"2Remove this use of "unregister"; it is deprecated.(Ÿıµçÿÿÿÿÿ8ì“û–Š,
+>squid:S1481")Remove this unused "hash" local variable.(¨´ãù
+Msquid:S1854"8Remove this useless assignment to local variable "hash".(¨´ãù
+Tsquid:UselessImportCheck"-Remove this unused import 'android.util.Log'.(Ô¦Ø²øÿÿÿÿ
+Osquid:S1118":Add a private constructor to hide the implicit public one.(µõÒ

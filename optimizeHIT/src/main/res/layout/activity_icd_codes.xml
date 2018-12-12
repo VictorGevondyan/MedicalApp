@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_white"
+    android:orientation="vertical" >
+
+    <!-- Actionbar -->
+
+    <RelativeLayout
+        android:id="@+id/actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/action_bar_height"
+        android:background="@color/orange"
+        android:gravity="center"
+        android:orientation="horizontal" >
+        
+		<Button
+	        android:id="@+id/back_button"
+	        android:layout_width="@dimen/action_button_width"
+	        android:layout_height="@dimen/action_bar_height"
+	        android:layout_gravity="center"
+	        android:onClick="onBack"
+	        android:text="@string/icon_angle_left"
+	        android:textSize="25sp"
+	        android:textColor="@color/text_white"
+	        android:background="@android:color/transparent"
+			android:textAllCaps="false" />
+
+		<TextView
+			android:id="@+id/content_title"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:gravity="center"
+			android:text="@string/icd_codes"
+			android:textSize="20sp"
+			android:textColor="@color/text_white"
+			android:background="@android:color/transparent" />
+        
+    </RelativeLayout>
+    
+    <TextView
+        android:id="@+id/no_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+		android:layout_marginLeft="12dp"
+        android:text="@string/no_superbill_result_found"
+        android:textStyle="italic"
+        android:textColor="@color/text_grey"
+        android:textSize="15sp"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/icd_codes_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:descendantFocusability="afterDescendants"
+        android:divider="#00000000"
+        android:fitsSystemWindows="true"
+        android:headerDividersEnabled="false"
+        android:isScrollContainer="true"
+        android:listSelector="#00000000"
+        android:scrollbars="none" >
+    </ListView>
+
+</LinearLayout>

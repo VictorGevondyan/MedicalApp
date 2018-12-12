@@ -1,0 +1,7 @@
+
+lsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(òŸ
+gsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(å‡Ë÷
+Åsquid:S1488"lImmediately return this expression instead of assigning it to the temporary variable "receivedNotification".(á∞∫ö
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Èÿª⁄˚ˇˇˇˇ
+Lsquid:S1135"2Complete the task associated to this TODO comment.(Ç—‘Á˛ˇˇˇˇ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ˇ·¿û˚ˇˇˇˇ

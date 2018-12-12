@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/solution_header"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+	android:background="@color/background_white">
+
+	<RelativeLayout 
+		android:id="@+id/search_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+		android:visibility="visible"
+		android:clickable="true" >
+        
+	    <RelativeLayout
+	        android:id="@+id/search_bar"
+	        android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_margin="5dp"
+			android:padding="10dp"
+			android:background="@drawable/search_background" >
+			
+		    <LinearLayout
+		        android:id="@+id/search_controls"
+		        android:layout_width="wrap_content"
+		        android:layout_height="20dp"
+		        android:orientation="horizontal"
+		        android:layout_centerInParent="true">
+		    
+		        <TextView
+		            android:id="@+id/search_icon"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/icon_search"
+		            android:textSize="15sp"
+		            android:textColor="@color/text_search" />
+
+				<RelativeLayout
+					android:id="@+id/search_field_container"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+
+					<com.implementhit.OptimizeHIT.util.CustomEditText
+						android:id="@+id/search_field"
+						android:paddingLeft="5dp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:hint="@string/search_for_solutions"
+						android:textColor="@color/text_search"
+						android:textColorHint="@color/text_search"
+						android:textSize="15sp"
+						android:inputType="text"
+						android:background="@android:color/transparent"
+						android:imeOptions="flagNoExtractUi"
+						android:visibility="gone"/>
+
+					<Button
+						android:id="@+id/search_field_ghost"
+						android:paddingLeft="5dp"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:minHeight="0dp"
+						android:minWidth="0dp"
+						android:text="@string/search_for_solutions"
+						android:textColor="@color/text_search"
+						android:textSize="15sp"
+						android:background="@android:color/transparent"
+						android:textAllCaps="false" />
+
+				</RelativeLayout>
+
+		    </LinearLayout>
+		    
+		    <Button
+	            android:id="@+id/clear_icon"
+                android:layout_width="wrap_content"
+	            android:layout_height="20dp"
+                android:minWidth="0dp"
+                android:minHeight="0dp"
+	            android:layout_alignParentRight="true"
+				android:layout_alignParentEnd="true"
+	            android:layout_centerVertical="true"
+	            android:gravity="center"
+	            android:text="@string/icon_cancel_circled_dark"
+	            android:textColor="@color/text_search"
+	            android:background="@android:color/transparent"
+	            android:visibility="invisible"
+				android:textAllCaps="false" />
+		    
+		</RelativeLayout>
+		
+	    <Button
+	        android:id="@+id/cancel_search"
+	        android:layout_width="0dp"
+	        android:layout_height="40dp"
+			android:layout_marginTop="10dp"
+			android:layout_marginRight="5dp"
+			android:layout_marginStart="5dp"
+			android:layout_marginEnd="5dp"
+			android:layout_marginLeft="5dp"
+			android:layout_alignParentRight="true"
+	        android:layout_alignParentEnd="true"
+	        android:layout_centerVertical="true"
+	        android:gravity="center"
+	        android:background="@android:color/transparent"
+			android:ellipsize="none"
+			android:singleLine="true"
+	        android:text="@string/cancel"
+            android:textSize="@dimen/text_size_medium"
+	        android:textColor="@color/text_blue"
+			android:textAllCaps="false" />
+	    
+	</RelativeLayout>
+
+	<TextView
+        android:id="@+id/searching"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textStyle="italic"
+        android:text="@string/searching"
+        android:textColor="@color/text_grey"
+        android:textSize="18sp"
+        android:visibility="gone"
+        android:background="@android:color/transparent" />
+	
+	<LinearLayout
+	    android:id="@+id/no_data"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:background="@drawable/rounded_rect_danger"
+	    android:layout_margin="5dp"
+	    android:padding="10dp"
+	    android:visibility="gone" >
+	
+	    <TextView
+	        android:id="@+id/danger_icon"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/icon_exclamation"
+	        android:textColor="@color/red" />
+	    
+	    <TextView
+	        android:id="@+id/no_data_text"
+	        android:paddingLeft="5dp"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/no_data_to_display"
+	        android:textColor="@color/red" />
+	    
+	</LinearLayout>
+
+</LinearLayout>

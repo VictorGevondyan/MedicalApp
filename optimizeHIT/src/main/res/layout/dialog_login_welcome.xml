@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_margin="10dp"
+		android:background="@drawable/dialog_shadow">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_centerInParent="true"
+			android:padding="25dp"
+			android:background="@color/background_white"
+			android:orientation="vertical"
+			android:gravity="center_horizontal">
+
+			<RelativeLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content">
+
+			<mbanje.kurt.fabbutton.FabButton
+				android:id="@+id/indeterminate"
+				android:layout_width="50dp"
+				android:layout_height="50dp"
+				android:layout_margin="16dp"
+				android:color="@color/background_white"
+				android:indeterminate="true"
+				android:max="100"
+				android:src="@drawable/ic_fab_complete"
+				app:fbb_autoStart="true"
+				app:fbb_progressColor="@color/orange"
+				app:fbb_progressWidthRatio="0.1"
+				app:fbb_showShadow="false"
+				app:layout_anchorGravity="bottom|right|end"/>
+
+			<mbanje.kurt.fabbutton.FabButton
+				android:layout_width="50dp"
+				android:layout_height="50dp"
+				android:layout_margin="16dp"
+				android:visibility="gone"
+				android:id="@+id/determinate"
+				android:color="@color/background_white"
+				android:indeterminate="false"
+				android:max="100"
+				android:progress="100"
+				android:src="@drawable/ic_fab_complete"
+				app:fbb_showShadow="false"
+				app:fbb_autoStart="true"
+				app:fbb_progressColor="@color/orange"
+				app:fbb_progressWidthRatio="0.1"
+				app:fbb_endBitmap="@drawable/complete_green"
+				app:fbb_showEndBitmap="true"
+				app:fbb_hideProgressOnComplete="false"
+				app:layout_anchorGravity="bottom|right|end"/>
+
+			</RelativeLayout>
+
+			<TextView
+				android:id="@+id/loading_dialog_text"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="20dp"
+				android:text="@string/proceed"
+				android:textSize="@dimen/text_size_medium"
+				android:textColor="@color/text_black"/>
+
+		</LinearLayout>
+
+	</RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/menu_item_height" >
+
+    <TextView
+        android:id="@+id/cme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cme"
+        android:textSize="@dimen/text_size_small"
+        android:textColor="@color/text_white"
+        android:textStyle="bold"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/menu_padding"
+        android:layout_marginRight="@dimen/menu_padding"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:background="@drawable/little_rounded_rect_orange"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="24dp"
+        android:paddingEnd="24dp"
+        android:paddingLeft="@dimen/menu_padding"
+        android:paddingStart="@dimen/menu_padding"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@id/cme"
+        android:layout_toStartOf="@id/cme"
+        android:gravity="center|left"
+        android:textSize="15sp"
+        android:textColor="@color/text_black"
+        android:lines="1"
+        android:singleLine="true" />
+
+    <LinearLayout
+        android:id="@+id/rating_and_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:orientation="horizontal"
+        android:layout_marginTop="2dp">
+
+        <LinearLayout
+            android:id="@+id/rating_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/menu_padding"
+            android:layout_marginStart="@dimen/menu_padding"
+            android:layout_marginRight="5dp"
+            android:layout_marginEnd="5dp"
+            android:background="@drawable/rounded_rect_grey"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/rating_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/icon_star_bold"
+                android:textSize="8sp"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"/>
+
+            <TextView
+                android:id="@+id/rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="11sp"
+                android:gravity="center_vertical"
+                android:paddingBottom="2dp"
+                android:paddingRight="5dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/category_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/category_colon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="@string/category_colon"
+                android:textSize="12sp"
+                android:textColor="@color/text_grey" />
+
+            <TextView
+                android:id="@+id/category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:gravity="center_vertical"
+                android:textSize="12sp"
+                android:textColor="@color/text_grey"
+                android:singleLine="true"
+                android:ellipsize="end"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/edit"
+        android:layout_height="@dimen/menu_item_height"
+        android:layout_width="wrap_content"
+        android:paddingStart="@dimen/menu_padding"
+        android:paddingLeft="@dimen/menu_padding"
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:text="@string/icon_dismiss_bold"
+        android:textColor="@color/red"
+        android:textSize="24sp"
+        android:background="@android:color/transparent"
+        android:gravity="center_vertical"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_height="@dimen/menu_item_height"
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:text="@string/delete"
+        android:textColor="@color/text_white"
+        android:background="@color/red"
+        android:visibility="invisible"
+        android:lines="1"
+        android:textAllCaps="false" />
+
+</RelativeLayout>

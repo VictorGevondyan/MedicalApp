@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollbar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbarSize="0dp"
+    android:orientation="vertical"
+	android:overScrollMode="never" >
+	
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/feedback_rounded_rect"
+        android:orientation="vertical" >
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+			android:padding="@dimen/feedback_margins"
+			android:orientation="vertical" >
+            
+	        <TextView
+	            android:id="@+id/title"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/send_feedback"
+	            android:textStyle="bold"
+	            android:gravity="center" />
+	        
+	        <TextView
+	            android:id="@+id/text"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/please_type_comment"
+	            android:gravity="center" />
+	        
+			<TextView
+	            android:id="@+id/error"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:gravity="center" />
+        
+        </LinearLayout>
+        
+        <com.implementhit.OptimizeHIT.util.CustomEditText
+            android:id="@+id/feedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textCapSentences"
+            android:layout_marginLeft="@dimen/feedback_margins"
+            android:layout_marginRight="@dimen/feedback_margins"
+            android:padding="2dp"
+            android:minLines="1"
+            android:background="@drawable/black_editable_rect"
+            android:imeOptions="flagNoExtractUi" />
+        
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/background_grey"
+            android:layout_marginTop="@dimen/feedback_margins" />
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+            
+            <Button
+                android:id="@+id/cancel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/cancel"
+                android:textColor="@color/background_blue"
+                android:background="@android:color/transparent"
+                android:onClick="cancel"
+				android:textAllCaps="false" />
+            
+            <Button
+                android:id="@+id/send"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/send"
+                android:textColor="@color/background_blue"
+                android:textStyle="bold"
+                android:background="@android:color/transparent"
+                android:onClick="send"
+				android:textAllCaps="false" />
+            
+        </LinearLayout>
+        
+    </LinearLayout>
+
+</ScrollView>

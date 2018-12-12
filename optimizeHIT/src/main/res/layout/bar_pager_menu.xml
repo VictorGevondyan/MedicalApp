@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/background_item_grey"/>
+
+    <LinearLayout
+        android:id="@+id/bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:weightSum="4"
+        android:orientation="horizontal"
+        android:background="@color/background_light_grey">
+
+        <include
+            android:id="@+id/dashboard_item"
+            layout="@layout/item_bar_pager_menu" />
+
+        <include
+            android:id="@+id/library_item"
+            layout="@layout/item_bar_pager_menu" />
+
+        <include
+            android:id="@+id/opti_query_item"
+            layout="@layout/item_bar_pager_menu" />
+
+        <include
+            android:id="@+id/notification_item"
+            layout="@layout/item_bar_pager_menu" />
+
+    </LinearLayout>
+
+</LinearLayout>

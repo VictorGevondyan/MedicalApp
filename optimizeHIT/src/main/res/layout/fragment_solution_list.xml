@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.implementhit.OptimizeHIT.layouts.SlidingListsLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/header_solution" />
+
+        <TextView
+            android:id="@+id/no_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="12dp"
+            android:textStyle="italic"
+            android:textColor="@color/text_grey"
+            android:textSize="15sp"
+            android:visibility="gone" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/suggestions_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="#00000000"
+            android:scrollbars="none"
+            android:listSelector="#00000000"
+            android:headerDividersEnabled="false"
+            android:descendantFocusability="afterDescendants"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:isScrollContainer="true"
+            android:fitsSystemWindows="true"
+            android:overScrollMode="never" >
+        </android.support.v7.widget.RecyclerView>
+
+    </RelativeLayout>
+
+</com.implementhit.OptimizeHIT.layouts.SlidingListsLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/action_button_bar"
+    android:layout_width="match_parent"
+    android:layout_height="?actionBarSize"
+    android:background="@android:color/transparent"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:weightSum="2">
+
+    <Button
+        android:id="@+id/bar_button_left"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/action_bar_gap"
+        android:layout_marginStart="@dimen/action_bar_gap"
+        android:layout_weight="1"
+        android:background="@drawable/results_bar_left_active"
+        android:textAllCaps="false"
+        android:textColor="@color/orange"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/bar_button_right"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="@dimen/action_bar_gap"
+        android:layout_marginRight="@dimen/action_bar_gap"
+        android:layout_weight="1"
+        android:background="@drawable/results_bar_right_inactive"
+        android:textAllCaps="false"
+        android:textColor="@color/background_light_grey"
+        android:textSize="15sp" />
+
+</LinearLayout>

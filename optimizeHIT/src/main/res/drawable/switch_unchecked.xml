@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+    
+    <corners
+        android:radius="@dimen/login_switch_radius" />
+     
+	<stroke
+	   android:width="1dp"
+	   android:color="@color/background_grey" />
+	
+	<solid
+	    android:color="@color/background_superlight_grey" />
+
+	<size
+		android:width="@dimen/login_switch_width"
+		android:height="@dimen/login_switch_height" />
+
+</shape>

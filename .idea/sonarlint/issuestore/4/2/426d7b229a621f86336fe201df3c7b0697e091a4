@@ -1,0 +1,27 @@
+
+osquid:CommentedOutCodeLineæ"<This block of commented-out lines of code should be removed.(…·–úÿÿÿÿ8”àùçÖ,
+jsquid:CommentedOutCodeLineõ"<This block of commented-out lines of code should be removed.(½‡Ä÷8”àùçÖ,
+Gsquid:S1185ü"(Remove this method to simply inherit it.(ñ”Ò8”àùçÖ,
+Usquid:S2696‘"6Make the enclosing method "static" or remove this set.(ÀÉäé8”àùçÖ,
+ squid:S1186Ç"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(š€§¿8”àùçÖ,
+ssquid:S2068F"U'password' detected in this expression, review this potentially hardcoded credential.(µ£ „8”àùçÖ,
+jsquid:CommentedOutCodeLineö"<This block of commented-out lines of code should be removed.(Ìâ‰ÿ8”àùçÖ,
+ssquid:S2068="U'PASSWORD' detected in this expression, review this potentially hardcoded credential.(ÇÏ±‰8”àùçÖ,
+osquid:CommentedOutCodeLineñ"<This block of commented-out lines of code should be removed.(ï‹Û™øÿÿÿÿ8”àùçÖ,
+Gsquid:S1148–"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8”àùçÖ,
+Wsquid:S1481 "3Remove this unused "domainImageUrl" local variable.(†ÓÃøûÿÿÿÿ8”àùçÖ,
+Gsquid:S1148†"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8”àùçÖ,
+Gsquid:S1148¸"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8”àùçÖ,
+jsquid:CommentedOutCodeLine•"<This block of commented-out lines of code should be removed.(Ï»¿¹8”àùçÖ,
+—squid:S1319‡"xThe type of the "notifications" object should be an interface such as "List" rather than the implementation "ArrayList".(ŠÙÏÐ8”àùçÖ,
+Usquid:S2696Ö"6Make the enclosing method "static" or remove this set.(ÀÉäé8”àùçÖ,
+tsquid:S2068†"U'password' detected in this expression, review this potentially hardcoded credential.(ží’¯8”àùçÖ,
+…squid:S1845F"gRename field "password" to prevent any misunderstanding/clash with field "PASSWORD" defined on line 61.(µ£ „8”àùçÖ,
+jsquid:CommentedOutCodeLineˆ"<This block of commented-out lines of code should be removed.(Ï»¿¹8”àùçÖ,
+Lsquid:S1185²"(Remove this method to simply inherit it.(ºÚÑÒþÿÿÿÿ8”àùçÖ,
+osquid:CommentedOutCodeLineô"<This block of commented-out lines of code should be removed.(ØÝ•Åüÿÿÿÿ8”àùçÖ,
+isquid:CommentedOutCodeLineî"<This block of commented-out lines of code should be removed.(šå¦8”àùçÖ,
+tsquid:S2068à"U'password' detected in this expression, review this potentially hardcoded credential.(ží’¯8”àùçÖ,
+fsquid:S1854 "BRemove this useless assignment to local variable "domainImageUrl".(†ÓÃøûÿÿÿÿ8”àùçÖ,
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¬£ÆÂøÿÿÿÿ
+qsquid:MaximumInheritanceDepth:"<This class has 9 parents which is greater than 5 authorized.(¿”Ä°ÿÿÿÿÿ8˜ž¶Ù,

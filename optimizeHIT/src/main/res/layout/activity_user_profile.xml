@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android.support.v7.appcompat="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <include layout="@layout/bar_action" />
+
+    <ScrollView
+        android:id="@+id/settings_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/settings_background"
+        android:scrollbars="none"
+        android:overScrollMode="never">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:splitMotionEvents="false">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    android:background="@color/background_white" >
+
+                    <ImageView
+                        android:id="@+id/client_logo"
+                        android:layout_width="@dimen/client_logo_size"
+                        android:layout_height="@dimen/client_logo_size"
+                        android:layout_marginTop="@dimen/loading_margins" />
+
+                    <TextView
+                        android:id="@+id/domain_label"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/query_button_margin_top"
+                        android:textColor="@color/text_light_grey"
+                        android:textSize="@dimen/text_size_medium" />
+
+                    <TextView
+                        android:id="@+id/firstname_lastname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/query_button_margin_top"
+                        android:textColor="@color/text_darker_grey"
+                        android:textSize="@dimen/text_size_large" />
+
+                    <TextView
+                        android:id="@+id/username"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/query_button_margin_top"
+                        android:textColor="@color/text_light_grey"
+                        android:textSize="@dimen/text_size" />
+
+                    <Button
+                        android:id="@+id/logout"
+                        android:layout_width="@dimen/logout_button_width"
+                        android:layout_height="@dimen/logout_button_height"
+                        android:layout_marginTop="@dimen/login_fields_margin"
+                        android:text="@string/logout"
+                        android:textSize="@dimen/text_size_small"
+                        android:textColor="@color/text_white"
+                        android:background="@drawable/rounded_rect_red"
+                        android:textAllCaps="false" />
+
+                    <TextView
+                        android:id="@+id/settings_label"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/settings_top_margin"
+                        android:text="@string/settings_capitalized"
+                        android:textColor="@color/text_white"
+                        android:background="@color/orange"
+                        android:paddingLeft="@dimen/menu_padding"
+                        android:paddingTop="@dimen/solutions_bar_small_padding"
+                        android:paddingBottom="@dimen/solutions_bar_small_padding" />
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/default_bar"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/menu_item_height"
+                    android:layout_marginTop="@dimen/settings_divider"
+                    android:background="@color/background_white"
+                    android:clickable="true" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/menu_padding"
+                        android:layout_alignParentLeft="true"
+                        android:gravity="center_vertical"
+                        android:text="@string/default_screen"
+                        android:textColor="@color/text_black"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/icon_arrow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:paddingRight="@dimen/menu_padding"
+                        android:paddingLeft="@dimen/menu_padding"
+                        android:gravity="center|right"
+                        android:text="@string/icon_angle_right"
+                        android:textSize="15sp"
+                        android:textColor="@color/text_dark_grey" />
+
+                    <TextView
+                        android:id="@+id/default_screen"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_toLeftOf="@id/icon_arrow"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/text_dark_grey"
+                        android:textSize="12sp" />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/menu_padding"
+                    android:text="@string/choose_the_default"
+                    android:textColor="@color/text_search"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/menu_padding"
+                    android:text="@string/text_to_speech"
+                    android:textColor="@color/text_search"
+                    android:textSize="15sp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/menu_item_height"
+                    android:background="@color/background_white" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/menu_padding"
+                        android:layout_alignParentLeft="true"
+                        android:gravity="center_vertical"
+                        android:text="@string/auto_start"
+                        android:textColor="@color/text_black"
+                        android:textSize="15sp" />
+
+                    <android.support.v7.widget.SwitchCompat
+                        android:id="@+id/auto_play"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/menu_padding"
+                        android:layout_alignParentRight="true"
+                        android:textOff=""
+                        android:textOn=""
+                        android:thumbTextPadding="15dp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="@drawable/list_divider" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/menu_item_height"
+                    android:background="@color/background_white" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="@dimen/menu_padding"
+                        android:layout_alignParentLeft="true"
+                        android:gravity="center_vertical"
+                        android:text="@string/reading_speed"
+                        android:textColor="@color/text_black"
+                        android:textSize="15sp" />
+
+                    <Button
+                        android:id="@+id/play_sample"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentRight="true"
+                        android:text="@string/play_sample"
+                        android:textColor="@color/text_white"
+                        android:textSize="12sp"
+                        android:gravity="center"
+                        android:layout_margin="@dimen/menu_padding"
+                        android:background="@drawable/little_rounded_rect_orange"
+                        android:paddingLeft="8dp"
+                        android:paddingRight="8dp"
+                        android:textAllCaps="false" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/menu_item_height"
+                    android:background="@color/background_white" >
+
+                    <SeekBar
+                        android:id="@+id/speech_speed"
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="@dimen/menu_padding"
+                        android:layout_marginLeft="@dimen/menu_padding"
+                        android:thumb="@drawable/seek_bar_thumb"/>
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/superbill_section"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/menu_padding"
+                        android:text="@string/superbills"
+                        android:textColor="@color/text_search"
+                        android:textSize="15sp" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/menu_item_height"
+                        android:background="@color/background_white" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="@dimen/menu_padding"
+                            android:layout_alignParentLeft="true"
+                            android:gravity="center_vertical"
+                            android:text="@string/enable_grouping"
+                            android:textColor="@color/text_black"
+                            android:textSize="15sp" />
+
+                        <android.support.v7.widget.SwitchCompat
+                            android:id="@+id/is_grouping"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="@dimen/menu_padding"
+                            android:layout_alignParentRight="true"
+                            android:textOff=""
+                            android:textOn=""
+                            android:thumbTextPadding="15dp" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:layout_alignParentBottom="true"
+                            android:background="@drawable/list_divider" />
+
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/menu_item_height"
+                        android:background="@color/background_white" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="@dimen/menu_padding"
+                            android:layout_alignParentLeft="true"
+                            android:gravity="center_vertical"
+                            android:text="@string/hide_grouping_disabled_message"
+                            android:textColor="@color/text_black"
+                            android:textSize="15sp" />
+
+                        <android.support.v7.widget.SwitchCompat
+                            android:id="@+id/hide_grouping_message"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="@dimen/menu_padding"
+                            android:layout_alignParentRight="true"
+                            android:textOff=""
+                            android:textOn=""
+                            android:thumbTextPadding="15dp" />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

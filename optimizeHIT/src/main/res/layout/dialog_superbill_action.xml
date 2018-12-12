@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
+		android:background="@drawable/feedback_rounded_rect" >
+        
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="@dimen/feedback_margins"
+                android:text="@string/what_you_like_to_do"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/subtitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title"
+                android:gravity="center"
+                android:padding="@dimen/feedback_margins"
+                android:textSize="@dimen/text_size"
+                android:textColor="#000000" />
+            
+        </RelativeLayout>
+        
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/login_box_divider"/>
+        
+        <Button
+            android:id="@+id/more_info"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/feedback_menu_item_height"
+            android:background="@android:color/transparent"
+            android:text="@string/more_info"
+            android:textSize="18sp"
+			android:textColor="@color/text_blue"
+            android:textAllCaps="false" />
+        
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/login_box_divider" />
+
+        <Button
+            android:id="@+id/superbill_action"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/feedback_menu_item_height"
+            android:background="@android:color/transparent"
+            android:textSize="18sp"
+            android:textColor="@color/text_blue"
+            android:textAllCaps="false" />
+
+        <View
+            android:id="@+id/remove_superbill_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/login_box_divider" />
+        
+        <Button
+            android:id="@+id/remove_superbill"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/feedback_menu_item_height"
+            android:background="@android:color/transparent"
+            android:text="@string/remove_superbill"
+            android:textSize="18sp"
+            android:textColor="@color/red"
+            android:textAllCaps="false" />
+
+        <View
+            android:id="@+id/superbill_action_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/login_box_divider" />
+                
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/feedback_menu_item_height"
+            android:background="@android:color/transparent"
+            android:text="@string/cancel"
+            android:textStyle="bold"
+            android:textSize="18sp"
+			android:textColor="@color/text_blue"
+            android:textAllCaps="false" />
+        
+    </LinearLayout>
+    
+</RelativeLayout>

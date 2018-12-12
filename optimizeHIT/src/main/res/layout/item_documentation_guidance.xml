@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginTop="12dp" >
+        
+	    <TextView
+	        android:id="@+id/title"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:textSize="15sp"
+	        android:textStyle="bold"
+	        android:textColor="#000000" />
+
+		<TextView
+			android:id="@+id/command"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+			android:layout_marginRight="12dp"
+	        android:textSize="12sp"
+	        android:textColor="@color/text_blue"
+	        android:gravity="right" />
+	    
+    </RelativeLayout>
+    
+	<LinearLayout
+	    android:id="@+id/guidance_content"
+	    android:visibility="gone"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:padding="5dp"
+	    android:orientation="vertical"
+	    android:background="@drawable/rounded_light_grey_rectangle" >
+	    
+	    <TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+			android:layout_marginBottom="5dp"
+			android:layout_marginTop="5dp"
+	        android:text="@string/documentation_points"
+	        android:textSize="15sp"
+	        android:textStyle="bold"
+	        android:textColor="#000000" />
+	    
+		<TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+			android:layout_marginBottom="5dp"
+			android:layout_marginTop="5dp"
+	        android:text="@string/relevant_documentation"
+	        android:textSize="15sp"
+	        android:textStyle="bold"
+	        android:textColor="#000000" />
+	    
+	        
+		<TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+			android:layout_marginBottom="5dp"
+			android:layout_marginTop="5dp"
+	        android:text="@string/case_example"
+	        android:textSize="15sp"
+	        android:textStyle="bold"
+	        android:textColor="#000000" />
+		
+		<TextView
+		    android:id="@+id/case_example"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+			android:layout_marginBottom="5dp"
+			android:layout_marginTop="5dp"
+	        android:textSize="15sp"
+	        android:textColor="#000000" />
+		
+		<TextView
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+			android:layout_marginBottom="5dp"
+			android:layout_marginTop="5dp"
+	        android:text="@string/case_example_codes"
+	        android:textSize="15sp"
+	        android:textStyle="bold"
+	        android:textColor="#000000" />
+	
+	</LinearLayout>
+
+</LinearLayout>

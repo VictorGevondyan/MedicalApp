@@ -1,0 +1,36 @@
+
+Usquid:S2696À"6Make the enclosing method "static" or remove this set.(¨Éôì8ÊïùçÖ,
+ squid:S1186Ê"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ğ«Ôƒ8ÊïùçÖ,
+Osquid:S1172ç"+Remove this unused method parameter "view".(šÑçşÿÿÿÿ8ÊïùçÖ,
+xsquid:S2293¼"YReplace the type specification in this constructor call with the diamond operator ("<>").(ıÒ¤·8ÊïùçÖ,
+jsquid:S1192³"FDefine a constant instead of duplicating this literal "alpha" 6 times.(íŠÕ øÿÿÿÿ8ÊïùçÖ,
+Ssquid:S1066ñ"/Merge this if statement with the enclosing one.(ú¿©øÿÿÿÿ8ÊïùçÖ,
+}squid:S2293½"YReplace the type specification in this constructor call with the diamond operator ("<>").(¾è½øøÿÿÿÿ8ÊïùçÖ,
+}squid:S1450«"YRemove the "isFavorite" field and declare it as a local variable in the relevant methods.(ŒÈ–ıÿÿÿÿ8ÊïùçÖ,
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(İşŠÛ
+osquid:CommentedOutCodeLineš"<This block of commented-out lines of code should be removed.(º¤õ¨úÿÿÿÿ8ÊïùçÖ,
+esquid:S1126Ó"AReplace this if-then-else statement by a single return statement.(ä¼®øÿÿÿÿÿ8ÊïùçÖ,
+ksquid:S2259ğ"GA "NullPointerException" could be thrown; "solutions" is nullable here.(‹Ñ¤¾ıÿÿÿÿ8ÊïùçÖ,
+jsquid:CommentedOutCodeLine›"<This block of commented-out lines of code should be removed.(™±›á8ÊïùçÖ,
+Isquid:S1172Æ"+Remove this unused method parameter "view".(ÿ—(8ÊïùçÖ,
+fsquid:S2259ã"GA "NullPointerException" could be thrown; "solutions" is nullable here.(“ï«ø8ÊïùçÖ,
+Osquid:S1068ª"+Remove this unused "isLiked" private field.(£¼©ìûÿÿÿÿ8ÊïùçÖ,
+Nsquid:S00108“")Either remove or fill this block of code.(é–³öûÿÿÿÿ8ÊïùçÖ,
+\squid:S1155«">Use isEmpty() to check whether the collection is empty or not.(ñæ¤#8ÊïùçÖ,
+esquid:S2147”"FCombine this catch with the one at line 1683, which has the same body.(ßÈ´8ÊïùçÖ,
+¥squid:S1186ë"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÜÇ£şÿÿÿÿ8ÊïùçÖ,
+osquid:CommentedOutCodeLineç"<This block of commented-out lines of code should be removed.(ƒ×È•øÿÿÿÿ8ÊïùçÖ,
+¥squid:S1186Û"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(úƒÚÓûÿÿÿÿ8ÊïùçÖ,
+osquid:CommentedOutCodeLine¸
+"<This block of commented-out lines of code should be removed.(„™®çøÿÿÿÿ8ÊïùçÖ,
+ squid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(±–Š8ÊïùçÖ,
+Rsquid:S1068«".Remove this unused "isFavorite" private field.(ŒÈ–ıÿÿÿÿ8ÊïùçÖ,
+Nsquid:S1066ı"/Merge this if statement with the enclosing one.(ì•®Ÿ8ÊïùçÖ,
+psquid:S3776û
+"RRefactor this method to reduce its Cognitive Complexity from 47 to the 15 allowed.(…Ã÷X8ÊïùçÖ,
+Isquid:S00108”")Either remove or fill this block of code.(ßÈ´8ÊïùçÖ,
+Gsquid:S1148§"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ÊïùçÖ,
+}squid:S2293à"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÁŞõ€ÿÿÿÿÿ8ÊïùçÖ,
+ squid:S1186«"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(íÀãø8ÊïùçÖ,
+usquid:HiddenFieldCheckÍ"FRename "currentSolutionId" which hides the field declared at line 153.(­­©Øıÿÿÿÿ8ÊïùçÖ,
+jsquid:CommentedOutCodeLineÅ"<This block of commented-out lines of code should be removed.(ÿÇ×8ÊïùçÖ,

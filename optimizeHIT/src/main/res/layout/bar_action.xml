@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.implementhit.OptimizeHIT.views.PrimaryColoredFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <LinearLayout
+            android:id="@+id/left_button_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone" >
+
+            <Button
+                android:id="@+id/left_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:minHeight="0dp"
+                android:minWidth="0dp"
+                android:background="@android:color/transparent"
+                android:textColor="@color/text_white"
+                android:textSize="25sp"
+                android:textAllCaps="false"/>
+
+            <TextView
+                android:id="@+id/button_subtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-4dp"
+                android:text="@string/support"
+                android:textColor="@color/text_white"
+                android:textSize="@dimen/text_size_small"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/content_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:textColor="@color/text_white"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/right_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:textColor="@color/text_white"
+            android:textSize="25sp"
+            android:visibility="gone"
+            android:fillEnabled="true"
+            android:textAllCaps="false" />
+
+    </RelativeLayout>
+
+</com.implementhit.OptimizeHIT.views.PrimaryColoredFrameLayout>

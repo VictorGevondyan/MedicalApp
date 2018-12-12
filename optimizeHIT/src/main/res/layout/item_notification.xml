@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    
+    <View
+        android:id="@+id/unread_icon"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_marginStart="@dimen/dp_10"
+		android:background="@drawable/circle_blue"/>
+    
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+		android:layout_alignParentBottom="true"
+        android:background="@drawable/list_divider" />
+    
+    <TextView
+        android:id="@+id/permission_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:paddingRight="@dimen/menu_padding"
+        android:gravity="center|right"
+        android:text="@string/icon_angle_right"
+        android:textSize="15sp"
+        android:textColor="@color/text_grey" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toLeftOf="@id/permission_icon"
+        android:layout_toRightOf="@id/unread_icon"
+        android:paddingLeft="@dimen/menu_padding"
+        android:paddingRight="@dimen/menu_padding"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <TextView
+	        android:id="@+id/text"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center|left"
+	        android:textSize="15sp"
+	        android:textColor="@color/text_black" />
+
+	    <TextView
+	        android:id="@+id/timestemp"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:textSize="12sp"
+	        android:textColor="@color/text_grey"/>
+    
+    </LinearLayout>
+
+</RelativeLayout>

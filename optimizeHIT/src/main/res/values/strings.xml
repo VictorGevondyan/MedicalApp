@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">OptiQuery</string>
+    <string name="optiquery_title">OptiQuery</string>
+    <string name="please_enter_associated_domain">Please enter the domain you are associated with</string>
+    <string name="copyright">Copyright &#169; 2017 ImplementHIT. All rights reserved.</string>
+    <string name="action_settings">Settings</string>
+    <string name="image_content_description">Image Content Description</string>
+    <string name="please_sign_in">Please sign in with your OptimizeHIT Account</string>
+    <string name="please_fill_for_reset">Please fill the form to reset your password</string>
+    <string name="domain_hint">Domain</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="verifying_session">Verifying Session</string>
+    <string name="logging_in">Loggin in</string>
+    <string name="loading_solution">Loading Solution</string>
+    <string name="loading_peers">Loading Favorites</string>
+    <string name="loading_dashboard">Loading Dashboard</string>
+    <string name="loading_support">Loading Support</string>
+    <string name="loading_speech">Loading Speech</string>
+    <string name="thanks_for_feedback">Thank you for your feedback.</string>
+    <string name="removing_favorite">Removing Favorite</string>
+    <string name="invalid_credentials">Invalid Credentials! Please try again.</string>
+    <string name="login_failed">Login Failed</string>
+    <string name="all_fields_required">All the fields are required!</string>
+    <string name="ok">Ok</string>
+    <string name="ok_semi_lowercase">Ok</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="empty_string"></string>
+    <string name="loading_suggestions">Loading Suggestions</string>
+    <string name="send_feedback">Send Feedback</string>
+    <string name="please_type_comment">Please type in your comments below.</string>
+    <string name="feedback_min_5_letters">Feedback has to have at least 5 characters</string>
+    <string name="send">Send</string>
+    <string name="refresh_solutions">Refreshing Solutions</string>
+    <string name="sending_feedback">Sending Feedback</string>
+    <string name="try_again">Try Again</string>
+    <string name="browse_for_solutions">Browse for Solutions</string>
+    <string name="no_result_found">No results were found for your search, \"TOKEN\" please try again.</string>
+    <string name="speech_failure">Failed to synthesize speech</string>
+    <string name="speech_error">Speech Error</string>
+    <string name="go_back_responses">Go back to responses</string>
+    <string name="feedback_sent">Feedback Sent</string>
+    <string name="no_data_to_display">No data to display for this view</string>
+    <string name="search_for_solutions">Search for Solutions</string>
+    <string name="please_try_again">The OptimizeHIT servers are not reachable.\nPlease check if you are connected to the internet.\n\nIf this is a recurring issue please press the diagnostics button in the Support section of this app.</string>
+    <string name="title_just_fail">No Internet</string>
+    <string name="no_solution">No solution</string>
+    <string name="no_favorites_added">You haven\'t added any favorites yet</string>
+    <string name="no_history">No solutions viewed yet</string>
+    <string name="no_solution_found">No solution found</string>
+    <string name="searching">Start Searching&#8230;</string>
+    <string name="keep_logged_in">Keep me logged in:</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="optimizehit_com">.optimizehit.com</string>
+    <string name="voice_search">Voice Search</string>
+    <string name="ask_naturally">Ask questions naturally</string>
+    <string name="categories">Categories</string>
+    <string name="unknown_category">Unknown Category</string>
+    <string name="subcategories">Subcategories</string>
+    <string name="solutions">Solutions</string>
+    <string name="solution">Solution</string>
+    <string name="results">Results</string>
+    <string name="favorites">Favorites</string>
+    <string name="peer_favorites">Peer Favorites</string>
+    <string name="voice_history">Voice History</string>
+    <string name="browse_history">Browse History</string>
+    <string name="edit">Edit</string>
+    <string name="done">Done</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="explore_icd_10">Explore ICD-10</string>
+    <string name="find_the_code">Find The Code</string>
+    <string name="support">Support</string>
+    <string name="optiquery_tm">OptiQuery&#8482;</string>
+    <string name="click_to_start">Click to Start</string>
+    <string name="please_speek_beep">Please speak after the beep</string>
+    <string name="delete">Delete</string>
+    <string name="exit_full_screen">Exit Full Screen</string>
+    <string name="like">Like</string>
+    <string name="liked_solutions">Liked Solutions</string>
+    <string name="your_favorites">Your Favorites</string>
+    <string name="liked">Liked</string>
+    <string name="feedback">Feedback</string>
+    <string name="favorite">Favorite</string>
+    <string name="in_favorites">In Favorites</string>
+    <string name="fullscreen">Fullscreen</string>
+    <string name="cancel">Cancel</string>
+    <string name="other">Other&#8230;</string>
+    <string name="solution_wrong_category">Solution in wrong category</string>
+    <string name="solution_inaccurate">Solution\'s content is inaccurate</string>
+    <string name="lang_pres_issue">Language/Presentation Issue</string>
+    <string name="help_improve_content">Help us improve our content</string>
+    <string name="select_default">Select Your default view</string>
+    <string name="history">History</string>
+    <string name="default_screen">Default Screen</string>
+    <string name="auto_start">Auto Start</string>
+    <string name="reading_speed">Reading Speed</string>
+    <string name="play_sample">Play Sample</string>
+    <string name="pause_sample">Pause Sample</string>
+    <string name="stop_sample">Stop Sample</string>
+    <string name="choose_the_default">Choose the default screen to show when opening the app</string>
+    <string name="text_to_speech">TEXT TO SPEECH</string>
+    <string name="networking">NETWORKING</string>
+    <string name="permissions">PERMISSIONS</string>
+    <string name="submit_ticket">Submit Ticket</string>
+    <string name="submit_a_ticket">Submit a Ticket</string>
+    <string name="submitting_ticket">Submitting Ticket</string>
+    <string name="diagnostics">Diagnostics</string>
+    <string name="subject">Subject</string>
+    <string name="describe_issue">Describe Issue</string>
+    <string name="connected_to_the_internet">Connected to the Internet</string>
+    <string name="optimizehit_servers_reachable">OptimizeHIT Servers Reachable</string>
+    <string name="access_to_the_microphone">Access to the Microphone</string>
+    <string name="push_notifications">Push Notifications</string>
+    <string name="location_services">Location Services</string>
+    <string name="suggested_solutions">Suggested Solutions</string>
+    <string name="settings">Settings</string>
+    <string name="settings_capitalized">SETTINGS</string>
+    <string name="input_question">Type in a question</string>
+    <string name="query">Query</string>
+    <string name="browse">Browse</string>
+    <string name="popular_questions">Popular Questions</string>
+    <string name="processing">Processing&#8230;</string>
+    <string name="loading">Loading&#8230;</string>
+    <string name="solution_library">Solution Library</string>
+    <string name="ibm_watson">IBM Watson</string>
+    <string name="suggestions_all">All</string>
+    <string name="based_on_current_location">Based on your current location</string>
+    <string name="reactivation_qiuck_overview">Reactivation: Quick overview to refresh your memory</string>
+    <string name="suggestions">Suggestions</string>
+    <string name="sorry_no_suggestions_yet">Sorry no suggestions yet. Continue using the app to start generating suggestions.</string>
+    <string name="suggestions_location_based">Location based</string>
+    <string name="request_failed">Failed to send request</string>
+    <string name="request_succeed">Request sent successfully</string>
+    <string name="sending_request">Sending request</string>
+    <string name="subordiante_codes">Sub-ordinate Codes</string>
+    <string name="corresponding_icd9">Corresponding ICD-9 Codes</string>
+    <string name="documentation_guidance">Documentation Guidance</string>
+    <string name="determining_icd9">* ICD-9 codes determined using CMS GEMS Mapping.</string>
+    <string name="add_to_superbill_question">Add to Superbill?</string>
+    <string name="create_group">Create New&#8230;</string>
+    <string name="name_new_group">Name your new Group</string>
+    <string name="move_to_group">Move to Group&#8230;</string>
+    <string name="add_to_superbill_group">Add to Superbill Group</string>
+    <string name="add_to_main_superbill">Add to main Superbill list</string>
+    <string name="do_you_want_add_to_superbill">Do you want to add \"%s\" to your superbill ?</string>
+    <string name="already_in_superbill">Already in your Superbill&#8230;</string>
+    <string name="code_is_already_in_superbill">This code is already in your Superbill, if you wish to remove it, you can do that from within your superbill.</string>
+    <string name="this_is_billable_code">This is a billable code, denoted by the $ sign. No further sub-ordinate code exist.</string>
+    <string name="back">Back</string>
+    <string name="remove_superbill">Remove from Superbill</string>
+    <string name="explore">Explore</string>
+    <string name="what_you_like_to_do">What would you like to do?</string>
+    <string name="no_superbill_found">No items found in your superbill</string>
+    <string name="no_superbill_result_found">No results found for your search</string>
+    <string name="no_results_found">No results found</string>
+    <string name="documentation_points">DOCUMENTATION POINTS</string>
+    <string name="relevant_documentation">RELEVANT DOCUMENTATION</string>
+    <string name="case_example">CASE EXAMPLE</string>
+    <string name="case_example_codes">CASE EXAMPLE ICD-10 CODES</string>
+    <string name="superbills">SUPERBILLS</string>
+    <string name="no_notifications_found">No notifications found</string>
+    <string name="enable_grouping">Enable Grouping</string>
+    <string name="hide_grouping_disabled_message">Hide grouping disabled message</string>
+    <string name="grouping_is_disabledd">Grouping is disabled. Open settings to enable.</string>
+    <string name="group">Group: </string>
+    <string name="your_session_has_expired">Your account was used on another device to sign in.\n\nAn account can only remain signed in on one device at a time.</string>
+    <string name="session_expired">Session Closed</string>
+    <string name="select_a_group">Select a Group</string>
+    <string name="add">Add</string>
+    <string name="group_name_cannot_blank">Group Name cannot be blank</string>
+    <string name="name_group">Name your new Group</string>
+    <string name="copied_to_clipboard">The diagnostic information has been copied into your clipboard. Please paste the info into the ticket if you are creating one.</string>
+    <string name="find_billable">Find billable \ncodes only </string>
+    <string name="search_by">Search by ICD-9/ICD-10 codes or condition name </string>
+    <string name="no_internet_access">A working internet connection is required for this app to function correctly. Please, connect to a wi-fi network or enable cellular data</string>
+    <string name="connect_to_disappear">This message will disappear as soon as a connection is established</string>
+    <string name="text">text</string>
+    <string name="time">time</string>
+    <string name="unread_notifications">%1$d Unread</string>
+    <string name="mark_all_read_confirm_title">Please confirm</string>
+    <string name="mark_all_read_confirm_message">Are you sure you want to mark all notifications as read?</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="submit_reset_request">Submit Reset Request</string>
+    <string name="error">Error</string>
+    <string name="x">&#215;</string>
+    <string name="type_to_search_icd">You have to enter some text to search with. You can enter (partial) ICD-9 / ICD-10 codes or condition name to search by.</string>
+    <string name="type_or_use_voice">You have to type a question to start a query, or use the mic icon to use voice search</string>
+    <string name="insert_only_english">Please, insert only english letters and digits</string>
+    <string name="set_automatic_speech">You can set automatic\nplayback and speech speed\nin Settings</string>
+    <string name="suggestion">Suggestion</string>
+    <string name="voice_recognition_disabled">Sorry, Voice recognition is disabled by your phone\'s privacy settings. Please go to Applications > OptimizeHIT > Permissions in your Phone\'s settings to enable.</string>
+    <string name="speech_not_recognized">Sorry, speech not recognized. Please, try again.</string>
+    <string name="microphone_unavailable">Sorry, Voice recognition is disabled because either your phone does not have microphone or it is disabled in settings.</string>
+    <string name="change_permissions_in_settings">To change Permissions for the above listed features, please go to Settings > Applications > OpimizeHIT > Permissions on your device. To change Location Permissions, you may also go to Settings > Location.</string>
+    <string name="speech_connection_error">Failed to connect to speech server. Please check your internet connection.</string>
+    <string name="above_info_automatically_added">The above diagnostic information is automatically added to the ticket you submit</string>
+    <string name="both_subject_and_description_required">Both the \"Subject\" and \"Describe Issue\" fields are required</string>
+    <string name="subcategories_for">Subcategories for: %s</string>
+    <string name="solutions_for_category">Solutions for Category: %s</string>
+    <string name="cme">CME</string>
+    <string name="searching_for_code">Searching&#8230;</string>
+    <string name="welcome">Welcome</string>
+
+    <!-- ICONS -->
+    <string name="icon_mic">&#xf127;</string>
+    <string name="icon_logout">\ue807</string>
+    <string name="icon_menu">\ue81e</string>
+    <string name="icon_angle_right">&#xf113;</string>
+    <string name="icon_angle_left">&#xf103;</string>
+    <string name="icon_ok">&#xf108;</string>
+    <string name="icon_play">&#xf12b;</string>
+    <string name="icon_play_bold">&#xf12b;</string>
+    <string name="icon_pause">&#xf129;</string>
+    <string name="icon_pause_bold">&#xf129;</string>
+    <string name="icon_dashboard">&#xf10e;</string>
+    <string name="icon_dashboard_bold">&#xf10f;</string>
+    <string name="icon_library">&#xf105;</string>
+    <string name="icon_notifications">&#xf100;</string>
+    <string name="icon_notifications_bold">&#xf101;</string>
+    <string name="icon_stop">\ue811</string>
+    <string name="icon_arrows_cw">&#xf133;</string>
+    <string name="icon_diagnostics">&#xf125;</string>
+    <string name="icon_copy">\ue836</string>
+    <string name="icon_spinner">\ue81f</string>
+    <string name="icon_thumbs_alt_up">&#xf134;</string>
+    <string name="icon_thumbs_alt_up_bold">&#xf135;</string>
+    <string name="icon_comment">&#xf137;</string>
+    <string name="icon_star">&#xf12f;</string>
+    <string name="icon_star_bold">&#xf130;</string>
+    <string name="icon_resize_full_alt">\ue80f</string>
+    <string name="icon_exclamation">\ue809</string>
+    <string name="icon_search">&#xf12d;</string>
+    <string name="icon_cancel_circled_dark">&#xf107;</string>
+    <string name="icon_dismiss_bold">&#xf122;</string>
+    <string name="icon_ok_bubble">&#xf124;</string>
+    <string name="icon_attention">\ue817</string>
+    <string name="icon_plus">&#xf12c;</string>
+    <string name="icon_dollar_circled">&#xf139;</string>
+    <string name="icon_check">&#xf108;</string>
+    <string name="icon_more">&#xf120;</string>
+    <string name="icon_back">&#xf103;</string>
+    <string name="icon_simple_check">&#xf108;</string>
+    <string name="icon_refresh">&#xf133;</string>
+    <string name="icon_bullet">\u2022</string>
+    <string name="icon_bell_alt">&#xf101;</string>
+    <string name="icon_map_pin">&#xf11a;</string>
+    <string name="icon_list_with_title">\ue832</string>
+    <string name="icon_info">&#xf118;</string>
+    <string name="icon_question">&#xf116;</string>
+    <string name="icon_cancel_circled">&#xf106;</string>
+    <string name="icon_profile">&#xf109;</string>
+    <string name="icon_check_list">&#xf136;</string>
+
+    <!-- STRINGS FOR THE MENU ACTIVITY -->
+    <string name="library">Library</string>
+    <string name="opti_query">OptiQuery</string>
+
+    <!-- STRINGS FOR FAVORITE SOLUTIONS FRAGMENT SCREEN -->
+
+    <string name="favorite_solutions">Favorite Solutions</string>
+
+
+    <!--    !!! SOME ( NOT ALL ) !!! STRINGS FOR OPTI QUERY SCREEN -->
+    <string name="touch_below">Touch below to start</string>
+    <string name="or">or</string>
+
+    <!-- STRINGS FOR Find The Code SCREEN -->
+    <string name="superbill">Superbill</string>
+    <string name="search">Search</string>
+    <string name="icd_codes">ICD-10 Codes</string>
+
+    <string name="already_exists">Already Exists</string>
+    <string name="already_in_superbill_short">This code is already in your superbill</string>
+    <string name="more_info">More Info&#8230;</string>
+
+    <!-- STRINGS FOR ICD CODES LIST SCREEN -->
+
+    <string name="code">Code: </string>
+    <string name="yes_bold">YES</string>
+
+    <!-- STRINGS FOR NOTIFICATIONS SCREEN -->
+
+    <string name="notifications">Notifications</string>
+    <string name="notification">Notification</string>
+
+    <!-- STRINGS FOR SOLUTION FRAGMENT SCREEN -->
+
+    <string name="play_tts">Play TTS</string>
+    <string name="pause_tts">Pause TTS</string>
+    <string name="rate_solution">Rate Solution</string>
+    <string name="library_results">Library Results</string>
+
+    <!-- STRINGS FOR SUGGESTED SOLUTIONS FRAGMENT SCREEN -->
+
+    <string name="category_colon">Category:</string>
+
+    <!-- STRINGS FOR DASHBOARD FRAGMENT SCREEN -->
+
+    <string name="logout_login">logoutLogin</string>
+
+    <!-- STRINGS FOR DIALOGS -->
+
+    <string name="title_no_internet">No Internet Connection</string>
+    <string name="message_no_internet"> The app needs an active internet connection to ensure you are fully logged out. </string>
+
+    <string name="message_confirm_logout"> Are you sure you wish to log out? </string>
+
+    <string name="title_no_internet_refresh">Offline</string>
+    <string name="message_no_internet_refresh"> The app is not able to connect to the internet. Please enable Wi-Fi or Cellular Data </string>
+
+    <string name="title_billable_code">Billable Code</string>
+    <string name="message_billable_code"> No further subordinate codes exist. </string>
+
+
+    <string-array name="library_titles">
+        <item>Suggested Solutions</item>
+        <item>Favorites</item>
+        <item>History</item>
+        <item>Find The Code</item>
+    </string-array>
+
+    <string-array name="library_icons">
+        <item>&#xf114;</item>
+        <item>&#xf12f;</item>
+        <!--<item>&#xf13a;</item>-->
+        <item>&#xf10b;</item>
+        <item>&#xf10c;</item>
+    </string-array>
+
+    <string-array name="loading_questions">
+        <item>Loading&#8230;</item>
+    </string-array>
+
+    <string-array name="no_questions">
+        <item>No Questions</item>
+    </string-array>
+
+    <string-array name="unable_questions">
+        <item>Unable to Load Questions</item>
+    </string-array>
+
+    <string-array name="refresh_to_load_again">
+        <item>Load Failed, click refresh to try again</item>
+    </string-array>
+
+    <string-array name="menu_titles">
+        <item>Dashboard</item>
+        <item>Library</item>
+        <item>OptiQuery</item>
+        <item>Notifications</item>
+    </string-array>
+
+    <string-array name="default_screens">
+        <item>Dashboard</item>
+        <item>Library</item>
+        <item>OptiQuery</item>
+        <item>Find the Code</item>
+    </string-array>
+
+    <string-array name="menu_icons">
+        <item>&#xf10e;</item>
+        <item>&#xf105;</item>
+        <item>&#xf127;</item>
+        <item>&#xf100;</item>
+    </string-array>
+    <string-array name="menu_icons_bold">
+        <item>&#xf10f;</item>
+        <item>&#xf105;</item>
+        <item>&#xf127;</item>
+        <item>&#xf101;</item>
+    </string-array>
+
+    <string name="demo">Call me Ishmael. Some years ago—never mind how long precisely—having little or
+		no money in my purse, and nothing particular to interest me on shore, I
+		thought I would sail about a little and see the watery part of the world. It
+		is a way I have of driving off the spleen and regulating the circulation.
+		Whenever I find myself growing grim about the mouth; whenever it is a damp,
+		drizzly November in my soul; whenever I find myself involuntarily pausing
+		before coffin warehouses, and bringing up the rear of every funeral I meet;
+		and especially whenever my hypos get such an upper hand of me, that it
+		requires a strong moral principle to prevent me from deliberately stepping
+		into the street, and methodically knocking people\'s hats off—then, I account
+		it high time to get to sea as soon as I can. This is my substitute for pistol
+		and ball. With a philosophical flourish Cato throws himself upon his sword; I
+		quietly take to the ship. There is nothing surprising in this. If they but
+		knew it, almost all men in their degree, some time or other, cherish very
+		nearly the same feelings towards the ocean with me.</string>
+    <string name="forgot_pass_instructions">Please check your email for a link to reset your password.
+        If you do not receive this email, please check your Spam/Others folder
+        before making another request</string>
+    <string name="diagnostics_clipboard">Networking\n\n
+               \t•  Connected to the internet - %1$s\n
+               \t•  OptimizeHIT Servers Reachable - %2$s\n
+           \nPermissions\n\n
+               \t•  Access to the Microphone - %3$s\n
+               \t•  Push Notification - %4$s\n
+               \t•  Location Services - %5$s\n
+           \nApplication Info\n\n
+               \t•  App Version - %6$s\n
+           \nDevice Info\n\n
+               \t•  Device - %7$s\n
+               \t•  OS Version - %8$s\n</string>
+    <string name="permission_microphone_access_welcome">Welcome To OptiQuery</string>
+    <string name="permission_microphone_access_let_us">Let us quickly go through a few steps to set up the app.\nThis will help us to deliver the best experience for you</string>
+    <string name="permission_microphone_access_title">Access to your Microphone</string>
+    <string name="permission_microphone_access_hint">The OptiQuery App has a Voice Search\nfeature. To be able to use this, you need to grant\naccess to your microphone. The
+        microphone is only enabled when you touch the Start Listening button.\n\nWhen you press the Proceed button below,\nthe app will ask you for permission to\naccess your microphone.</string>
+    <string name="already_provided">If you have already provided (a previous version of) the\napp with the required permissions
+    , pressing the above\nbutton will simply move to the next step.\nThis is normal behavior.</string>
+    <string name="permission_microphone_access_decline">If you do not allow access, you can allow\nmicrophone access later in your phone\'s\n privacy settings located at\nSettings > Applications > OptimizeHIT > Permissions</string>
+    <string name="permission_push_notifications_title">Push Notifications</string>
+    <string name="permission_push_notifications_hint">The OptimizeHIT App can notify you about\nthe availability of new solutions in addition\nto sending you EMR/EHR related alerts,\nMedical Advisories etc.\n\nWhen you press the Go button below,\nthe app will ask you for permission to\nsend you push notifications.</string>
+    <string name="permission_push_notifications_decline">If you do not allow access, you can enable\npush notifications later in your phone\'s\nnotification settings located at\nSettings -> Applications > OptimizeHIT > Permissions</string>
+    <string name="permission_location_access_title">Location based services</string>
+    <string name="note">Note:</string>
+    <string name="permission_location_access_hint">The OptiQuery App is designed to give you specific\ntraining based on your location.
+        The app has\nthe ability to detect Low-energy Bluetooth and iBeacon devices installed at various locations to deliver relevant solutions to you.</string>
+    <string name="physical_location">-Your physical location is not constantly tracked by this app under any circumstances\n-There is no battery drain associated with
+        enabling this feature.</string>
+    <string name="when_you_press">When you press the Proceed button below,\nthe app will ask you for permission to\naccess your location.</string>
+    <string name="permission_location_access_decline">If you do not allow access, you can allow\nlocation access for OptimizeHIT later in your\nphone\'s privacy settings located at\nSettings > Applications > OptimizeHIT > Permissions</string>
+    <string name="go">Go</string>
+    <string name="setup_complete">Setup Complete</string>
+    <string name="thank_you_for_installing">Thank you for installing the\nOptimizeHIT Mobile Training App</string>
+    <string name="proceed">Proceed</string>
+    <string name="tap_to_change">(tap to change)</string>
+    <string name="please_enter_username">Please enter Your username and password</string>
+    <string name="please_enter_email">Please enter Your email to reset password</string>
+    <string name="cancel_request">Cancel Request</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="profile_settings">Profile Settings</string>
+    <string name="notification_text">Notification Text</string>
+
+    <string-array name="diagnostics_items">
+        <item>Internet</item>
+        <item>Server\nReachable</item>
+        <item>Microphone\nAccess</item>
+        <item>Push\nNotification</item>
+        <item>Location\nServices</item>
+    </string-array>
+    <string-array name="diagnostics_labels">
+        <item>Internet</item>
+        <item>Server Reachable</item>
+        <item>Microphone Access</item>
+        <item>Push Notification</item>
+        <item>Location Services</item>
+    </string-array>
+    <string-array name="diagnostics_ok_messages">
+        <item>You are connected to the internet</item>
+        <item>The OptimizeHIT servers are reachable</item>
+        <item>Microphone access is available</item>
+        <item>Push notifications are enabled</item>
+        <item>Access to Location Services available</item>
+    </string-array>
+    <string-array name="diagnostics_error_messages">
+        <item>You do not seem to have an active internet connection, please check if your Wi-Fi or Cellular data is enabled</item>
+        <item>If you are connected to the internet and still seeing this message, a firewall or proxy may be blocking access. Please submit a ticket to further troubleshoot.</item>
+        <item>You have disabled or have not allowed access to your Microphone. This access is necessary to enable Voice Search.\n\nTo enable microphone access for this app, please open your device\'s settings and navigate to Applications > OptimizeHIT > Permissions and toggle the switch next to "Microphone".</item>
+        <item>You have disabled or have not allowed Push Notifications.\n\nTo enable Push Notification access for this app, please open your device\'s settings and navigate to Applications > OptimizeHIT > Permissions and Toggle the switch next to \"Allow Notifications\"</item>
+        <item>Access to Location Services is disabled. To enable Location Services please open your device\'s settings and navigate to Applications > OptimizeHIT > Permissions and Toggle the switch next to "Location Access". Also check if Settings > Location Services > Access to my location is checked.\n\nThis app does not use constant tracking. We use low-energy bluetooth based beacons placed in various locations you may visit that will trigger relevant training for you. This does not use up your battery.</item>
+    </string-array>
+
+    <string name="preferences_file_name">OptiQueryPreferences</string>
+
+</resources>

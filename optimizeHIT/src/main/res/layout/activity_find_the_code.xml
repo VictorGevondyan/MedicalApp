@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android.support.v7.appcompat="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <include layout="@layout/bar_action"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ScrollView
+            android:id="@+id/find_code_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/menu_padding"
+            android:layout_marginRight="@dimen/menu_padding"
+            android:descendantFocusability="afterDescendants"
+            android:fillViewport="true"
+            android:focusable="false"
+            android:orientation="vertical"
+            android:scrollbars="none"
+            android:overScrollMode="never"
+            android:layout_alignParentTop="true">
+
+            <LinearLayout
+                android:id="@+id/find_code_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="@dimen/menu_padding" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginEnd="@dimen/between_components_margin"
+                    android:layout_marginRight="@dimen/between_components_margin"
+                    android:text="@string/search_by"
+                    android:textColor="@color/text_black"
+                    android:textSize="12sp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="@dimen/between_components_margin_small"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/button_search"
+                        android:layout_width="125dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/little_rounded_rect_orange"
+                        android:clickable="true"
+                        android:paddingEnd="@dimen/button_text_padding"
+                        android:paddingLeft="@dimen/button_text_padding"
+                        android:paddingRight="@dimen/button_text_padding"
+                        android:paddingStart="@dimen/button_text_padding"
+                        android:text="@string/search"
+                        android:textColor="@color/text_white"
+                        android:textSize="@dimen/text_size_medium"
+                        android:textAllCaps="false" />
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="5dp"
+                        android:layout_toLeftOf="@id/button_search"
+                        android:background="@drawable/input_rounded_rect" >
+
+                        <TextView
+                            android:id="@+id/clear_icon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="20dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:background="@android:color/transparent"
+                            android:clickable="true"
+                            android:gravity="center"
+                            android:text="@string/icon_cancel_circled_dark"
+                            android:textColor="@color/text_search"
+                            android:textSize="15sp"
+                            android:visibility="invisible" />
+
+                        <com.implementhit.OptimizeHIT.util.CustomEditText
+                            android:id="@+id/question"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:layout_toLeftOf="@id/clear_icon"
+                            android:background="@android:color/transparent"
+                            android:hint="@string/query"
+                            android:imeOptions="flagNoExtractUi|actionDone"
+                            android:inputType="text"
+                            android:paddingLeft="5dp"
+                            android:textColor="@color/text_black"
+                            android:textColorHint="@color/text_search"
+                            android:textSize="@dimen/text_size_medium" />
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="@dimen/between_components_margin"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="@dimen/between_components_margin"
+                        android:layout_marginRight="@dimen/between_components_margin"
+                        android:layout_toLeftOf="@+id/find_billable_switch"
+                        android:layout_toStartOf="@+id/find_billable_switch"
+                        android:gravity="end"
+                        android:lines="2"
+                        android:text="@string/find_billable"
+                        android:textColor="@color/text_black"
+                        android:textSize="12sp"/>
+
+                    <android.support.v7.widget.SwitchCompat
+                        android:id="@+id/find_billable_switch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:textOff=""
+                        android:textOn=""
+                        android:thumbTextPadding="@dimen/thumb_text_padding"
+                         />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/superbill"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="bottom"
+                    android:text="@string/superbill"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/no_grouping"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right|top"
+                    android:layout_marginTop="-3dp"
+                    android:layout_marginBottom="4dp"
+                    android:text="@string/grouping_is_disabledd"
+                    android:textColor="@color/text_search"
+                    android:textSize="10sp"
+                    android:visibility="invisible" />
+
+                <RelativeLayout
+                    android:id="@+id/back_navigation_section"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:visibility="gone">
+
+                    <RelativeLayout
+                        android:id="@+id/back_navigation_button"
+                        android:layout_width="60dp"
+                        android:layout_height="24dp"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/little_rounded_rect_orange"
+                        android:clickable="true"
+                        android:padding="3dp" >
+
+                        <TextView
+                            android:id="@+id/back_icon"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:gravity="center_vertical"
+                            android:paddingRight="3dp"
+                            android:text="@string/icon_back"
+                            android:textColor="#FFFFFF"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:layout_centerVertical="true"
+                            android:layout_toRightOf="@id/back_icon"
+                            android:text="@string/back"
+                            android:textColor="#FFFFFF"
+                            android:textSize="12sp" />
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/subordinate_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:minHeight="40dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@id/back_navigation_button"
+                        android:singleLine="false"
+                        android:padding="5dp"
+                        android:textColor="#000000"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:gravity="center_vertical"
+                        android:layout_centerVertical="true"/>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/no_result"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="12dp"
+                    android:text="@string/no_superbill_found"
+                    android:textColor="@color/text_grey"
+                    android:textSize="15sp"
+                    android:textStyle="italic"
+                    android:visibility="gone" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/menu_padding"
+                    android:focusable="false"
+                    android:focusableInTouchMode="true" >
+
+                    <com.implementhit.OptimizeHIT.views.FractionListView
+                        xmlns:dslv="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/subordinates_list_first"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        float_background_color="@color/background_white"
+                        android:divider="@drawable/subordinate_divider"
+                        android:orientation="vertical"
+                        android:showDividers="middle" >
+                    </com.implementhit.OptimizeHIT.views.FractionListView>
+
+                    <com.implementhit.OptimizeHIT.views.FractionListView
+                        xmlns:dslv="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/subordinates_list_second"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        float_background_color="@color/background_white"
+                        android:divider="@drawable/subordinate_divider"
+                        android:orientation="vertical"
+                        android:showDividers="middle"
+                        android:visibility="gone">
+                    </com.implementhit.OptimizeHIT.views.FractionListView>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <!-- <TextView
+            android:id="@+id/cover_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:background="@android:color/transparent"
+            android:layout_alignParentTop="true"
+            android:clickable="true"
+            /> -->
+
+    </RelativeLayout>
+
+</LinearLayout>

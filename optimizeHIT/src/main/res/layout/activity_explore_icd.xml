@@ -1,0 +1,222 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.implementhit.OptimizeHIT.activity.ExploreICDActivity" >
+
+	<include
+		layout="@layout/bar_action"/>
+
+    <ScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+		android:background="#FFFFFF"
+		android:overScrollMode="never" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+       		android:layout_marginLeft="@dimen/menu_padding"
+			android:layout_marginRight="@dimen/menu_padding"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp"
+				android:textStyle="bold"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:gravity="center_vertical" />
+
+			<View
+		        android:layout_width="match_parent"
+		        android:layout_height="1dp"
+		        android:background="@color/background_light_grey" />
+
+			<LinearLayout
+			    android:id="@+id/subordinate_section"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:orientation="vertical" >
+
+				<TextView
+	                android:layout_height="40dp"
+	                android:layout_width="match_parent"
+	                android:layout_marginLeft="5dp"
+	                android:layout_marginRight="5dp"
+	                android:layout_marginBottom="5dp"
+	                android:text="@string/subordiante_codes"
+	                android:textColor="#000000"
+	                android:textSize="20sp"
+	                android:gravity="bottom" />
+
+				<LinearLayout
+				    android:id="@+id/back_navigation_section"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+					android:layout_marginLeft="5dp"
+	                android:layout_marginRight="5dp"
+					android:layout_marginBottom="10dp"
+	                android:orientation="horizontal" >
+
+					<RelativeLayout
+					    android:id="@+id/back_navigation_button"
+					    android:layout_width="100dp"
+					    android:layout_height="30dp"
+					    android:padding="5dp"
+					    android:background="@drawable/little_rounded_rect_orange"
+					    android:clickable="true" >
+
+					    <TextView
+					        android:id="@+id/back_icon"
+					        android:gravity="bottom"
+					        android:layout_height="match_parent"
+					        android:layout_width="wrap_content"
+					        android:layout_marginBottom="1dp"
+					        android:paddingRight="5dp"
+						    android:text="@string/icon_back"
+						    android:textColor="#FFFFFF"
+						    android:textSize="15dp" />
+
+						<TextView
+							android:layout_gravity="center_vertical"
+					        android:layout_height="wrap_content"
+					        android:layout_width="wrap_content"
+					        android:layout_toRightOf="@id/back_icon"
+						    android:text="@string/back"
+						    android:textColor="#FFFFFF"
+						    android:textSize="15sp" />
+
+					</RelativeLayout>
+
+					<TextView
+					    android:id="@+id/subordinate_title"
+					    android:layout_width="match_parent"
+					    android:layout_height="wrap_content"
+					    android:layout_marginLeft="10dp"
+					    android:textColor="#000000"
+					    android:textSize="15sp"
+					    android:textStyle="bold"
+						android:padding="5dp" />
+
+				</LinearLayout>
+
+				<RelativeLayout
+					android:layout_width="match_parent"
+				    android:layout_height="280dp" >
+
+					<com.implementhit.OptimizeHIT.views.FractionListView
+					    android:id="@+id/subordinates_list_first"
+					    android:layout_width="match_parent"
+					    android:layout_height="match_parent"
+					    android:divider="#FFFFFF"
+					    android:dividerHeight="5dp" >
+
+					</com.implementhit.OptimizeHIT.views.FractionListView>
+
+					<com.implementhit.OptimizeHIT.views.FractionListView
+					    android:id="@+id/subordinates_list_second"
+					    android:layout_width="match_parent"
+					    android:layout_height="match_parent"
+					    android:divider="#FFFFFF"
+					    android:dividerHeight="5dp"
+					    android:visibility="gone" >
+
+					</com.implementhit.OptimizeHIT.views.FractionListView>
+
+				</RelativeLayout>
+
+				<View
+			        android:layout_width="match_parent"
+			        android:layout_height="1dp"
+			        android:background="@color/background_light_grey" />
+
+			</LinearLayout>
+
+			<LinearLayout
+			    android:id="@+id/documentation_guidance_section"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:orientation="vertical" >
+
+				<TextView
+	                android:layout_height="40dp"
+	                android:layout_width="match_parent"
+	                android:layout_marginLeft="5dp"
+	                android:layout_marginStart="5dp"
+	                android:layout_marginRight="5dp"
+	                android:layout_marginEnd="5dp"
+	                android:layout_marginBottom="5dp"
+	                android:text="@string/documentation_guidance"
+	                android:textColor="#000000"
+	                android:textSize="20sp"
+	                android:gravity="bottom" />
+
+				<LinearLayout
+				    android:id="@+id/documentation_guidance_list"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:orientation="vertical" >
+
+				</LinearLayout>
+
+				<View
+			        android:layout_width="match_parent"
+			        android:layout_height="1dp"
+			        android:background="@color/background_light_grey" />
+
+			</LinearLayout>
+
+			<LinearLayout
+			    android:id="@+id/corresponding_icd9_section"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+ 	            android:layout_marginLeft="5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginEnd="5dp"
+			    android:orientation="vertical" >
+
+				<TextView
+	                android:layout_height="40dp"
+	                android:layout_width="match_parent"
+	                android:layout_marginBottom="5dp"
+	                android:text="@string/corresponding_icd9"
+	                android:textColor="#000000"
+	                android:textSize="20sp"
+	                android:gravity="bottom" />
+
+				<LinearLayout
+				    android:id="@+id/corresponding_icd9_list"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:orientation="vertical" >
+
+				</LinearLayout>
+
+				<TextView
+	                android:layout_height="wrap_content"
+	                android:layout_width="match_parent"
+	                android:layout_marginTop="30dp"
+	                android:layout_marginBottom="60dp"
+	                android:text="@string/determining_icd9"
+	                android:textStyle="bold"
+	                android:textColor="#000000"
+	                android:textSize="12sp" />
+
+			</LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
